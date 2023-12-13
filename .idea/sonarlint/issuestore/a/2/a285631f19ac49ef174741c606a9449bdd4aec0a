@@ -1,0 +1,15 @@
+
+‹
+java:S1319!"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ªİñ úÿÿÿÿ
+7
+java:S1643W"Use a StringBuilder instead.(¼–Üıÿÿÿÿ
+O
+java:S1128"4Remove this unused import 'com.example2.EMRefValue'.(ô¸ÒËúÿÿÿÿ
+R
+java:S1128"<Remove this unused import 'com.example2.ExternalModule2API'.(çƒÀ
+5
+java:S2129T" Remove this "String" constructor(ÊäƒV
+F
+java:S1172h"+Remove this unused method parameter "code".(×ÖÖòùÿÿÿÿ
+l
+java:S2159j"VRemove this call to "equals"; comparisons between unrelated types always return false.(¨ê“›

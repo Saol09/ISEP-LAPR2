@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+ class Test{
+ -code
+ -nhsCode
+ -createdAt
+ -date
+ }
+class DiagnosisReport{
+-date
+}
+class Client{
+-name
+-citizenCardNumber
+-nhsNumber
+-tinNumber
+-birthDate
+-sex
+-phoneNumber
+-email
+}
+
+class ClinicalAnalysisLab{
+-idLaboratory
+-name
+-address
+-phoneNumber
+-tin
+}
+
+class TestType{
+-name
+-description
+-collectingMethods
+}
+
+class Company{
+-designation
+}
+
+class Sample{
+-date
+}
+Company "1"-->"*" Client : has
+Company "1"-->"*" Test : performs
+Company "1"-->"*" ClinicalAnalysisLab : owns
+
+ClinicalAnalysisLab "1" -->"*" Test : analysis
+
+Test "*"-->"1" TestType : is of
+Test "1" --> "*" Sample : has
+
+DiagnosisReport "1"-->"1" Test : origins
+
+Client "1"-->"*" Test : requested by
+
+@enduml

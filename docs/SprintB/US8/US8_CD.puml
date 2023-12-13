@@ -1,0 +1,60 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class RegisterClinicalAnalysisLabUI
+{
+}
+
+class ClinicalAnalysisLabController
+{
+    +createClinicalAnalysisLabController(idLaboratory, name, address, phoneNumber, tin)
+    +saveClinicalAnalysisLabController(clincalAnalysisLab)
+    +getTypeOfTestList()
+    +getTypeOfTestObj(String id)
+}
+
+class Company
+{
+-string description
+-List<TypeOfTest> typeOfTestList
+
++createClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin, typeOfTest)
++validateClinicalAnalysisLab(clincalAnalysisLab)
++saveClinicalAnalysisLabController(clincalAnalysisLab)
++getTypeOfTestList()
++getTypeOfTestObj(String id)
+}
+
+class ClinicalAnalysisLab
+{
+-string idLaboratory
+-string name
+-string address
+-string phoneNumber
+-string tin
+-List<TypeOfTest> typeOfTestList
+
++ClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin)
++setIdLaboratory(string idLaboratory)
++setName(string name)
++setAddress(string address)
++setPhoneNumber(string phoneNumber)
++setTin(string tin)
++getIdLaboratory()
++getName()
++getAddress()
++getPhoneNumber()
++getTin()
+-checkIdLaboratoryRules(string idLaboratory)
+-checkNameRules(string name)
+-checkAddressRules(string address)
+-checkPhoneNumberRules(string phoneNumber)
+-checkTinRules(string tin)
++toString()
+}
+
+RegisterClinicalAnalysisLabUI ..> ClinicalAnalysisLabController
+ClinicalAnalysisLabController ..> Company
+Company ..> ClinicalAnalysisLab
+ClinicalAnalysisLabController ..> ClinicalAnalysisLab
+@enduml

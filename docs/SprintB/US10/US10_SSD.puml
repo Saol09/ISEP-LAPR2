@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Administrator" as Admin
+Admin -> ":System" : Ask to create a new parameter
+activate ":System"
+":System" --> Admin : requests data (code, name,  desc)
+deactivate ":System"
+Admin -> ":System" : Types requested data
+activate ":System"
+":System"--> Admin : Shows categories and asks to select one
+deactivate ":System"
+Admin->":System" : Selects a category
+activate ":System"
+":System"-->Admin : shows all data and requests confirmation
+deactivate ":System"
+Admin -> ":System" : confirms the data
+activate ":System"
+":System" --> Admin : informs operation success
+deactivate ":System"
+
+deactivate Admin
+
+@enduml

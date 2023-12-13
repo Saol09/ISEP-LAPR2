@@ -1,0 +1,100 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class ReportNHSUI{
+}
+
+class ReportNHSController{
++getTestStore()
++getClientStore()
++linearRegression(int historicalPoints,String dataIni, String dataFim)
++MultLinearRegression(int historicalPoints,String dataIni, String dataFim)
++getPositiveTest()
++getTestDia()
+}
+
+class LinearRegression{
++intercept()
++slope()
++R2()
++interceptStdErr()
++slopeStdErr()
++predict(double x)
++toString()
++getX()
++getY()
++getSxy()
++getSxx()
++getSyy()
++getSvar1()
++getSvar0()
++getMqResidual()
++getSqRegresion()
++getSqResidual()
++getSqTotal()
++getMsr()
++getMse()
++getEstatTest()
++getR()
++getTTabela(int gl, double alpha)
++getTCalculatedOfA()
++getTCalculatedOfB()
++calculateS()
++intervaloComf(int x)
+}
+
+class TestStore{
++getTestbyInterval(String data1, String data2)
+}
+
+class ClientStore{
++getIdade(String data)
++getMediaIdades(String[] tinList)
+}
+
+class MultilinearRegression{
++OLSMultipleLinearRegression()
++newSampleData(double[] y, double[][] x)
++calculateHat()
++calculateTotalSumOfSquares()
++calculateResidualSumOfSquares()
++calculateRSquared()
++calculateAdjustedRSquared()
++newXSampleData(double[][] x)
++calculateBeta()
++calculateBetaVariance()
++calculateRegressionSumOfSquares()
++calculateDfTotal()
++calculateDfRegression()
++calculateDfResidual()
++calculateMsRegression()
++calculateMsResidual()
++calculateFo()
++getTTabela(int gl, double alphaTD)
++multiply3Matrix(double[] horizontal, double[] vertical, double[][] central)
++multiply2Matrix(double[] horizontal, double[] vertical)
++getS()
++calculateIntervalo(double delta, double valor)
+}
+
+class Company {
+-desingation
++getTestStore()
++getClientStore()
+}
+
+ReportNHSUI ..> ReportNHSController
+ReportNHSController ..> Company
+Company --> TestStore
+Company -- ClientStore
+ReportNHSController ..> TestStore
+ReportNHSController ..> ClientStore
+ReportNHSController ..> LinearRegression
+ReportNHSController ..> MultilinearRegression
+
+
+
+
+
+@enduml

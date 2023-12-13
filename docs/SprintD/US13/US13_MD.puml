@@ -1,0 +1,46 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class ClinicalChemistryTechnologist{
+}
+
+class Employee{
+- int ID
+- String role
+- String address
+- String name
+- int phoneNumber
+- String email
+- int socCode
+}
+
+class Company{
+- String designation
+}
+
+
+class Client{
+String name
+String tinNumber
+}
+
+class Result{
+}
+
+class Test{
+String clientTinNum
+- code
+- NhsCode
+- createdAt
+}
+
+Employee <|--  ClinicalChemistryTechnologist
+Employee "1" <-- "1..*" Company
+Company "1..*" --> "1..*" Client
+Test "1" -- "1" Result : has
+Client "1..*" -- "1..*" Test : performs
+
+
+
+@enduml

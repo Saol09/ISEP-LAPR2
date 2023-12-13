@@ -1,0 +1,31 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+skinparam linetype polyline
+
+
+Class Company{
+-designation
+}
+
+Class MedicalLabTechnician{
+}
+
+Class Sample{
+-barcode
+}
+
+Class BarcodeAPI{
+-string
+}
+
+
+Company "1" -- "*" MedicalLabTechnician : knows >
+MedicalLabTechnician "1..*" -- "1..*" Sample : colects >
+MedicalLabTechnician "1..*" -- "1..*" Test : knows >
+Test "1" -- "1..*" Sample : contains >
+Company "1" -- "1..*" BarcodeAPI : has >
+
+
+@enduml

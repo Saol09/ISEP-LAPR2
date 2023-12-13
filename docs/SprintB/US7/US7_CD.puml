@@ -1,0 +1,43 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class RegisterEmployeeUI{
+}
+
+class RegisterEmployeeController{
+ +newEmployee(employeeId, organizationRole, name, address, phoneNumber, email, socCode)
+ +saveEmployee()
+}
+
+class Company{
+ -designation
+  
+ +getEmployeesRegistry()
+ +getDoctorRegistry()
+}
+
+class Employee{
+ -id
+ -organizationRole
+ -name
+ -address
+ -phoneNumber
+ -email
+ -socCode
+ +create(role, employeeId, name, address, phoneNumber, email, socCode)
+ +validateEmployee()
+ }
+
+class SpecialistDoctor{
+ -doctorIndexNumber
+ +create(role, EmployeeId, name, address, phoneNumber, email, socCode, doctorIndexNumber)
+ +validateSpecialistDoctor()
+}
+
+RegisterEmployeeUI ..> RegisterEmployeeController
+RegisterEmployeeController ..> Company
+Company ..> Employee
+Employee <|-- SpecialistDoctor
+
+@enduml

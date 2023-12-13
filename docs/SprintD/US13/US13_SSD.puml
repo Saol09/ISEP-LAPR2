@@ -1,0 +1,24 @@
+@startuml
+autonumber
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ": System" as S
+
+activate CCT
+CCT -> S : asks to show all registered clients
+activate S
+S --> CCT : what is the order
+deactivate S
+
+CCT -> S : select the order
+activate S
+S --> CCT : show all registered clients
+deactivate S
+
+CCT -> S : select a client
+activate S
+S --> CCT : show client history
+deactivate S
+
+
+@enduml

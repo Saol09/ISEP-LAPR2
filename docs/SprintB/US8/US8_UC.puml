@@ -1,0 +1,6 @@
+@startuml
+usecase "UC8 - Register a new clinical analysis lab" as UC8
+actor admin as "Administrator"
+
+admin --> (UC8)
+@enduml

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="315px" preserveAspectRatio="none" style="width:1135px;height:315px;" version="1.1" viewBox="0 0 1135 315" width="1135px" zoomAndPan="magnify"><defs><filter height="300%" id="f1eqcykcdux5s6" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[8b7126bc8f36c047bc69c7d446f0815c]
+class RegisterTypeOfTestUI--><rect codeLine="5" fill="#FEFECE" filter="url(#f1eqcykcdux5s6)" height="60" id="RegisterTypeOfTestUI" style="stroke:#A80036;stroke-width:1.875;" width="191.25" x="8.75" y="51.875"/><ellipse cx="27.5" cy="71.875" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M30,67.5 Q30.2539,66.875 30.5469,66.5625 Q30.8398,66.25 31.1719,66.25 Q31.7578,66.25 32.1289,66.6016 Q32.5,66.9531 32.5,67.7734 L32.5,69.7266 Q32.5,70.5469 32.1484,70.8984 Q31.7969,71.25 31.25,71.25 Q30.7617,71.25 30.4492,71.0352 Q30.1367,70.8203 30,70.2539 Q29.9414,69.8633 29.7266,69.6484 Q29.3359,69.2383 28.6328,69.0039 Q27.9297,68.75 27.2266,68.75 Q26.3477,68.75 25.6055,69.1016 Q24.8828,69.4531 24.3164,70.2344 Q23.75,71.0156 23.75,72.0898 L23.75,73.2422 Q23.75,74.5313 24.8047,75.3906 Q25.8594,76.25 27.7344,76.25 Q28.8477,76.25 29.6289,75.9961 Q30.0781,75.8594 30.5859,75.4102 Q30.918,75.1563 31.0938,75.0781 Q31.2695,75 31.4844,75 Q31.8945,75 32.1875,75.332 Q32.5,75.6445 32.5,76.0938 Q32.5,76.5234 32.0703,77.0313 Q31.4453,77.7734 30.4492,78.1836 Q29.1406,78.75 27.5391,78.75 Q25.6641,78.75 24.1602,78.0078 Q22.9492,77.4219 22.0898,76.1523 Q21.25,74.8828 21.25,73.3789 L21.25,72.0117 Q21.25,70.4492 21.9922,69.082 Q22.7539,67.7148 24.0625,66.9922 Q25.3906,66.25 26.875,66.25 Q27.7734,66.25 28.5547,66.5625 Q29.3359,66.875 30,67.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="151.25" x="45" y="78.0127">RegisterTypeOfTestUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="198.75" y1="91.875" y2="91.875"/><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="198.75" y1="101.875" y2="101.875"/><!--MD5=[ff0d498159257e7846416304662b0fd6]
+class RegisterTypeOfTestController--><rect codeLine="9" fill="#FEFECE" filter="url(#f1eqcykcdux5s6)" height="94.5898" id="RegisterTypeOfTestController" style="stroke:#A80036;stroke-width:1.875;" width="382.5" x="276.25" y="34.375"/><ellipse cx="360.3125" cy="54.375" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M362.8125,50 Q363.0664,49.375 363.3594,49.0625 Q363.6523,48.75 363.9844,48.75 Q364.5703,48.75 364.9414,49.1016 Q365.3125,49.4531 365.3125,50.2734 L365.3125,52.2266 Q365.3125,53.0469 364.9609,53.3984 Q364.6094,53.75 364.0625,53.75 Q363.5742,53.75 363.2617,53.5352 Q362.9492,53.3203 362.8125,52.7539 Q362.7539,52.3633 362.5391,52.1484 Q362.1484,51.7383 361.4453,51.5039 Q360.7422,51.25 360.0391,51.25 Q359.1602,51.25 358.418,51.6016 Q357.6953,51.9531 357.1289,52.7344 Q356.5625,53.5156 356.5625,54.5898 L356.5625,55.7422 Q356.5625,57.0313 357.6172,57.8906 Q358.6719,58.75 360.5469,58.75 Q361.6602,58.75 362.4414,58.4961 Q362.8906,58.3594 363.3984,57.9102 Q363.7305,57.6563 363.9063,57.5781 Q364.082,57.5 364.2969,57.5 Q364.707,57.5 365,57.832 Q365.3125,58.1445 365.3125,58.5938 Q365.3125,59.0234 364.8828,59.5313 Q364.2578,60.2734 363.2617,60.6836 Q361.9531,61.25 360.3516,61.25 Q358.4766,61.25 356.9727,60.5078 Q355.7617,59.9219 354.9023,58.6523 Q354.0625,57.3828 354.0625,55.8789 L354.0625,54.5117 Q354.0625,52.9492 354.8047,51.582 Q355.5664,50.2148 356.875,49.4922 Q358.2031,48.75 359.6875,48.75 Q360.5859,48.75 361.3672,49.0625 Q362.1484,49.375 362.8125,50 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="203.75" x="385.9375" y="60.5127">RegisterTypeOfTestController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="277.5" x2="657.5" y1="74.375" y2="74.375"/><line style="stroke:#A80036;stroke-width:1.875;" x1="277.5" x2="657.5" y1="84.375" y2="84.375"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="367.5" x="283.75" y="103.6487">+create(code, description, collecting methods, parameterCat)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="118.75" x="283.75" y="120.9436">+saveTypeOfTest()</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="14" fill="#FEFECE" filter="url(#f1eqcykcdux5s6)" height="146.4746" id="Company" style="stroke:#A80036;stroke-width:1.875;" width="382.5" x="735" y="8.75"/><ellipse cx="887.8125" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M890.3125,24.375 Q890.5664,23.75 890.8594,23.4375 Q891.1523,23.125 891.4844,23.125 Q892.0703,23.125 892.4414,23.4766 Q892.8125,23.8281 892.8125,24.6484 L892.8125,26.6016 Q892.8125,27.4219 892.4609,27.7734 Q892.1094,28.125 891.5625,28.125 Q891.0742,28.125 890.7617,27.9102 Q890.4492,27.6953 890.3125,27.1289 Q890.2539,26.7383 890.0391,26.5234 Q889.6484,26.1133 888.9453,25.8789 Q888.2422,25.625 887.5391,25.625 Q886.6602,25.625 885.918,25.9766 Q885.1953,26.3281 884.6289,27.1094 Q884.0625,27.8906 884.0625,28.9648 L884.0625,30.1172 Q884.0625,31.4063 885.1172,32.2656 Q886.1719,33.125 888.0469,33.125 Q889.1602,33.125 889.9414,32.8711 Q890.3906,32.7344 890.8984,32.2852 Q891.2305,32.0313 891.4063,31.9531 Q891.582,31.875 891.7969,31.875 Q892.207,31.875 892.5,32.207 Q892.8125,32.5195 892.8125,32.9688 Q892.8125,33.3984 892.3828,33.9063 Q891.7578,34.6484 890.7617,35.0586 Q889.4531,35.625 887.8516,35.625 Q885.9766,35.625 884.4727,34.8828 Q883.2617,34.2969 882.4023,33.0273 Q881.5625,31.7578 881.5625,30.2539 L881.5625,28.8867 Q881.5625,27.3242 882.3047,25.957 Q883.0664,24.5898 884.375,23.8672 Q885.7031,23.125 887.1875,23.125 Q888.0859,23.125 888.8672,23.4375 Q889.6484,23.75 890.3125,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="913.4375" y="34.8877">Company</text><line style="stroke:#A80036;stroke-width:1.875;" x1="736.25" x2="1116.25" y1="48.75" y2="48.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="73.75" x="742.5" y="68.0237">-designation</text><line style="stroke:#A80036;stroke-width:1.875;" x1="736.25" x2="1116.25" y1="76.0449" y2="76.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="367.5" x="742.5" y="95.3186">+create(code, description, collecting methods, parameterCat)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="202.5" x="742.5" y="112.6135">+validateTypeOfTest(typeOfTest)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="178.75" x="742.5" y="129.9084">+addTypeOfTest(typeOfTest)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="186.25" x="742.5" y="147.2034">+saveTypeOfTest(typeOfTest)</text><!--MD5=[f69a48f7b38bde3533dca6607cc4e94a]
+class TypeOfTest--><rect codeLine="23" fill="#FEFECE" filter="url(#f1eqcykcdux5s6)" height="77.2949" id="TypeOfTest" style="stroke:#A80036;stroke-width:1.875;" width="382.5" x="735" y="220.625"/><ellipse cx="882.1875" cy="240.625" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M884.6875,236.25 Q884.9414,235.625 885.2344,235.3125 Q885.5273,235 885.8594,235 Q886.4453,235 886.8164,235.3516 Q887.1875,235.7031 887.1875,236.5234 L887.1875,238.4766 Q887.1875,239.2969 886.8359,239.6484 Q886.4844,240 885.9375,240 Q885.4492,240 885.1367,239.7852 Q884.8242,239.5703 884.6875,239.0039 Q884.6289,238.6133 884.4141,238.3984 Q884.0234,237.9883 883.3203,237.7539 Q882.6172,237.5 881.9141,237.5 Q881.0352,237.5 880.293,237.8516 Q879.5703,238.2031 879.0039,238.9844 Q878.4375,239.7656 878.4375,240.8398 L878.4375,241.9922 Q878.4375,243.2813 879.4922,244.1406 Q880.5469,245 882.4219,245 Q883.5352,245 884.3164,244.7461 Q884.7656,244.6094 885.2734,244.1602 Q885.6055,243.9063 885.7813,243.8281 Q885.957,243.75 886.1719,243.75 Q886.582,243.75 886.875,244.082 Q887.1875,244.3945 887.1875,244.8438 Q887.1875,245.2734 886.7578,245.7813 Q886.1328,246.5234 885.1367,246.9336 Q883.8281,247.5 882.2266,247.5 Q880.3516,247.5 878.8477,246.7578 Q877.6367,246.1719 876.7773,244.9023 Q875.9375,243.6328 875.9375,242.1289 L875.9375,240.7617 Q875.9375,239.1992 876.6797,237.832 Q877.4414,236.4648 878.75,235.7422 Q880.0781,235 881.5625,235 Q882.4609,235 883.2422,235.3125 Q884.0234,235.625 884.6875,236.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="77.5" x="907.8125" y="246.7627">TypeOfTest</text><line style="stroke:#A80036;stroke-width:1.875;" x1="736.25" x2="1116.25" y1="260.625" y2="260.625"/><line style="stroke:#A80036;stroke-width:1.875;" x1="736.25" x2="1116.25" y1="270.625" y2="270.625"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="367.5" x="742.5" y="289.8987">+create(code, description, collecting methods, parameterCat)</text><!--MD5=[df5a6591c4213e9e9c34acf4bafcf94b]
+link RegisterTypeOfTestUI to RegisterTypeOfTestController--><path codeLine="29" d="M200.375,81.875 C221.8375,81.875 245.4,81.875 269.3625,81.875 " fill="none" id="RegisterTypeOfTestUI-to-RegisterTypeOfTestController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="276.125,81.875,264.875,76.875,269.875,81.875,264.875,86.875,276.125,81.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[52886fe39abb5f7b1c76f33e38c2658f]
+link RegisterTypeOfTestController to Company--><path codeLine="30" d="M658.9375,81.875 C681.85,81.875 705.275,81.875 728.275,81.875 " fill="none" id="RegisterTypeOfTestController-to-Company" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="734.75,81.875,723.5,76.875,728.5,81.875,723.5,86.875,734.75,81.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[147acf42fe9475025d9b6f56a55be7cf]
+link Company to TypeOfTest--><path codeLine="31" d="M926.25,155.05 C926.25,175.0125 926.25,196.05 926.25,213.975 " fill="none" id="Company-to-TypeOfTest" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="926.25,220.425,931.25,209.175,926.25,214.175,921.25,209.175,926.25,220.425" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="35" x="893.75" y="194.6814">does</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="919.6191" y="182.0689">*</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="916.5977" y="207.2644">1</text><!--MD5=[99f30e04c9a2523e847977e8edb07afe]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+left to right direction
+class RegisterTypeOfTestUI{
+  
+}
+
+class RegisterTypeOfTestController{
+ +create(code, description, collecting methods, parameterCat)
+ +saveTypeOfTest()
+}
+
+class Company{
+ -designation
+  
+ +create(code, description, collecting methods, parameterCat)
+ +validateTypeOfTest(typeOfTest)
+ +addTypeOfTest(typeOfTest)
+ +saveTypeOfTest(typeOfTest)
+}
+
+class TypeOfTest{
+ +create(code, description, collecting methods, parameterCat)
+}
+
+
+
+RegisterTypeOfTestUI ..> RegisterTypeOfTestController
+RegisterTypeOfTestController ..> Company
+Company "*" -> "1" TypeOfTest : does
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+left to right direction
+class RegisterTypeOfTestUI{
+  
+}
+
+class RegisterTypeOfTestController{
+ +create(code, description, collecting methods, parameterCat)
+ +saveTypeOfTest()
+}
+
+class Company{
+ -designation
+  
+ +create(code, description, collecting methods, parameterCat)
+ +validateTypeOfTest(typeOfTest)
+ +addTypeOfTest(typeOfTest)
+ +saveTypeOfTest(typeOfTest)
+}
+
+class TypeOfTest{
+ +create(code, description, collecting methods, parameterCat)
+}
+
+
+
+RegisterTypeOfTestUI ..> RegisterTypeOfTestController
+RegisterTypeOfTestController ..> Company
+Company "*" -> "1" TypeOfTest : does
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

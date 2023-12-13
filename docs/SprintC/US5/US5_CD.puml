@@ -1,0 +1,69 @@
+@startuml
+
+
+
+class CreateSampleTestUI
+{
+}
+
+class CreateSampleTestController
+{
++ getCreatedTestList()
++ createBarcode(String code)
++ printBarcode(String code)
++ getTestById(String id)
++ addSample(String id)
+}
+
+class Company
+{
+
+}
+
+class Sample
+{
+- Barcode barcode
+- String date
+
++ Sample(Barcode barcode)
++ String toString()
+}
+
+class BarcodeAPI
+{
++ createBarcode(String code)
++ printBarcode(String code)
+}
+
+class TestStore
+{
++ String getNewTests()
+}
+
+class DemoFile{
++ String codeGenarator()
+}
+
+class SaveDate{
++ String dataCreation()
+}
+
+class Test{
++ String testString()
+}
+
+
+CreateSampleTestUI -> CreateSampleTestController
+CreateSampleTestController -> Company
+Company -> Sample
+Company -> Test
+Company -> TestStore
+Company -> BarcodeAPI
+CreateSampleTestController -> BarcodeAPI
+Sample -> DemoFile
+Sample -> SaveDate
+Sample -> Test
+Sample -> BarcodeAPI
+TestStore -> Test
+
+@enduml

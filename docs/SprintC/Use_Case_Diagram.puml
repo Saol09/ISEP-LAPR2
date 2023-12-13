@@ -1,0 +1,91 @@
+@startuml
+
+left to right direction
+usecase "UC1 - Perform clinical blood tests" as UC1
+usecase "UC2 - Performs covid-19 tests" as UC2
+usecase "UC3 - Register a client" as UC3
+usecase "UC4 - Register type of test for client" as UC4
+usecase "UC5 - Record the sample collected in a given test" as UC5
+usecase "UC6 - Prescribes laboratory order" as UC6
+usecase "UC7 - Register an employee" as UC7
+usecase "UC8 - Register a new clinical analysis lab" as UC8
+usecase "UC9 - Specify a new type of test and its collecting methods" as UC9
+usecase "UC10 - Specify a new parameter and categorize it" as UC10
+usecase "UC11 - Specify a new parameter category" as UC11
+usecase "UC12 - Record the results of a given test " as UC12
+usecase "UC13 - Transports samples" as UC13
+usecase "UC14 - Make the diagnosis and write a report" as UC14
+usecase "UC15 - Validates the results of the analyzes" as UC15
+usecase "UC16 - Validates values automatically" as UC16
+usecase "UC17 - Validates reports" as UC17
+usecase "UC18 - Receive a notification" as UC18
+usecase "UC19 - Access the application to view those results" as UC19
+usecase "UC20 - Identify the number of Covid-19 tests performed" as UC20
+usecase "UC21 - Identify all positive results to Covid-19 tests" as UC21
+usecase "UC22 - Report the total number of Covid-19 cases" as UC22
+usecase "UC23 - Send the forecasts" as UC23
+usecase "UC24 - Generate daily reports" as UC24
+usecase "UC25 - Send a reports" as UC25
+usecase "UC26 - Perform chemical analysis" as UC26
+usecase "UC27 - Records samples in the system" as UC27
+usecase "UC28 - Associates the samples with the client" as UC28
+usecase "UC29 - Identifies each sample with a barcode" as UC29
+usecase "UC30 - Performs chemical analysis" as UC30
+usecase "UC31 - Records the results in the App software" as UC31
+usecase "UC32 - Registers in the App the test to be performed to that client" as UC32
+usecase "UC32 - Registers the client in the App" as UC32
+
+
+
+
+
+
+actor CAL as "Clinical Analysis Laboratories"
+actor CL as "Chemical Laboratory"
+actor Receptionist as "Receptionist"
+actor Doctor as "Doctor"
+actor MLT as "Medical Lab Technician"
+actor CCT as "Clinical Chemistry Technologist"
+actor SD as "Specialist Doctor"
+actor Courier as "Courier"
+actor LC as "Laboratory Coordinator"
+actor Client as "Client"
+actor Admin as "Administrator"
+
+ 
+
+CAL --> (UC1)
+CAL --> (UC2)
+Receptionist --> (UC3)
+Receptionist --> (UC4)
+Receptionist --> (UC32)
+Doctor --> (UC6)
+Admin --> (UC7)
+Admin --> (UC8)
+Admin --> (UC9)
+Admin --> (UC10)
+Admin --> (UC11)
+SD --> (UC14)
+Courier --> (UC13)
+Organization --> (UC16)
+LC --> (UC15)
+LC --> (UC17)
+Client --> (UC18)
+Client --> (UC19)
+CAL --> (UC20)
+CAL --> (UC21)
+CAL --> (UC22)
+CAL --> (UC23)
+CAL --> (UC24)
+SD --> (UC25)
+CL --> (UC26)
+MLT --> (UC5)
+MLT --> (UC27)
+MLT --> (UC28)
+MLT --> (UC29)
+CCT --> (UC12)
+CCT --> (UC30)
+CCT --> (UC31)
+
+@enduml
+ 

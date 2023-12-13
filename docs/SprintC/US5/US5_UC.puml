@@ -1,0 +1,6 @@
+@startuml
+usecase "UC5 - Record the sample collected in a given test" as UC5
+actor MLT as "Medical Lab Technician"
+
+MLT --> (UC5)
+@enduml

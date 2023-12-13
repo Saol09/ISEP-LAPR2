@@ -1,0 +1,64 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+
+
+class Test{
+- code
+- NhsCode
+- createdAt
++ addTestResult(parameterCode, result, metric)
++ getTestParameterFor(parameterCode)
+}
+
+class TypeOfTest{
+- code
+- description
+- collectingMethods
+- parameterCat
++ getExternalModule()
+}
+
+
+class Parameter{
+- code
+- shortName
+- description
+}
+
+class TestParameter{
++getParameter()
++addResult(result, metric, refValue)
+}
+
+class TestParameterResult{
+- createdAt
+- value
+- meric
++ TestParameterResult(result, metric, refValue)
+}
+
+class ExternalModule {
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+
+class ReferenceValue{
+}
+
+class ReferenceValue{
+}
+
+
+
+TestParameterResult "1" --> "1" ReferenceValue : records
+TestParameter "1" --> "0..1" TestParameterResult : contains
+TestParameter "*" --> "1" Parameter : refers to
+Test "1" --> "1..*" TestParameter : requests analysis of >
+Test "*" --> "1" TypeOfTest : is of
+TypeOfTest "*" --> "1" ExternalModule : makes use of
+
+
+
+@enduml

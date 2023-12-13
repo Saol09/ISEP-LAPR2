@@ -1,0 +1,6 @@
+Q1: Is there any size limit to the employee's name?
+A: I already answered this question. Employee Name: "a string with no more than 35 characters".
+
+Q2: Is there any validation that needs to be done on the employee's email format and size?
+A: The format of an e-mail address is well known. Attribute validation is always a good practice
+

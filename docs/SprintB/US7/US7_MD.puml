@@ -1,0 +1,36 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide methods
+
+
+class Company{
+-designation
+}
+
+class Employee{
+-id
+-name
+-address
+-phoneNumber
+-email
+-socCode
+-organizationRole
+}
+
+
+class SpecialistDoctor{
+-int doctorIndexNumber
+}
+
+class User{
+-name
+-email
+-password
+}
+
+Company "1"-right-"*" Employee: > employ
+Employee <|-- SpecialistDoctor
+User "1"-left-"0..1" Employee: < relates to
+
+@enduml

@@ -1,0 +1,89 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as A
+
+participant ":RegisterTypeOfTestUI" as UI
+participant ":RegisterTypeOfTestController" as CTRL
+participant ":Company" as C
+participant ":TypeOfTest" as TT
+participant ":CategoryParameterMapper" as CPM
+
+
+A -> UI : requests to register a test type
+activate UI
+UI --> A : requests data (code, description, collecting methods)
+deactivate UI
+
+A -> UI : inserts the data
+activate UI
+
+UI -> CTRL : newTypeOfTest(code, description, collecting methods)
+activate CTRL
+
+CTRL -> C : typeOfTest = newTypeOfTest(code, description, collecting methods)
+activate C
+deactivate CTRL
+
+C -> TT : create(code, description, collecting methods)
+deactivate C
+activate TT
+
+
+UI -> CTRL : CategoryParameterDto = getCategoryParameter()
+activate CTRL
+
+CTRL -> C : CategoryParameter = getCategoryParameter()
+activate C
+deactivate C
+
+CTRL -> CPM : toDTO(parameterCat)
+deactivate CTRL
+
+ref over CPM
+SD_CategoryParameter_toDTO_List
+end ref
+
+
+loop
+UI --> A: show parameter categories
+deactivate UI
+
+A -> UI : select parameter category
+activate UI
+UI -> CTRL : addCategoryParameter(parameterCat)
+activate CTRL
+CTRL -> TT : addCategoryParameter(parameterCat)
+deactivate TT
+deactivate CTRL
+
+end
+
+deactivate TT
+
+UI --> A : Shows the data and asks for confirmation
+deactivate UI
+
+A --> UI : Confirms the data
+activate UI
+
+UI -> CTRL : registerTypeOfTest()
+activate CTRL
+
+CTRL --> C : registerTypeOfTest(typeOfTest)
+activate C
+
+C -> C : validateTypeOfTest(typeOfTest)
+activate C
+deactivate C
+C -> C : addTypeOfTest(typeOfTest)
+activate C
+activate C
+deactivate C
+deactivate C
+deactivate CTRL
+UI --> A : Informs success of operation
+deactivate UI
+deactivate A
+
+@enduml

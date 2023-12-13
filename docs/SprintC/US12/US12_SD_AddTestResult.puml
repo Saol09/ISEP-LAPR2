@@ -1,0 +1,52 @@
+@startuml
+autonumber
+'hide footbox
+
+
+participant "test : Test" as T
+participant "testParam : TestParameter" as TP
+participant "type : TestOfType" as TT
+participant "em : ExternalModule" as EM
+participant "refValue : ReferenceValue" as RV
+participant "tesResult : TestParameterResult" as PR
+
+
+ -> T : addTestResult(parameterCode, result, metric)
+activate T
+T -> T : getTestParameterFor(parameterCode)
+activate T
+
+T --> T : tesParam
+deactivate T
+
+T -> TP : getParameter()
+activate TP
+
+TP --> T : param
+deactivate TP
+
+T -> TT : getExternalModule()
+activate TT
+
+TT --> T : em
+deactivate TT
+
+T -> EM : getReferenceValue(param)
+activate EM
+
+EM -> RV : getReferenceValue(param)
+
+EM --> T : refValue
+deactivate EM
+
+T -> TP : addResult(result, metric, refValue)
+activate TP
+
+TP -> PR : create(result, metric, refValue)
+
+TP --> T : ok
+deactivate TP
+
+ <-- T : ok
+
+@enduml

@@ -1,0 +1,22 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+participant "ImportDataService" as service
+participant "ClientStore" as ClientStore
+participant "Client" as client
+
+service -> ClientStore : client = newClient(Name,CitizenCardNumber,NHS_Number,TIN,BirthDay,PhoneNumber,E-mail,Address)
+activate service
+activate ClientStore
+ClientStore -> client : create()
+deactivate ClientStore
+deactivate service
+service -> ClientStore : save(client)
+activate service
+activate ClientStore
+ClientStore -> ClientStore : save(client)
+deactivate ClientStore
+deactivate service
+@enduml

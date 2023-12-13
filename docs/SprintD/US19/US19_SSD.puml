@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor Timer as t
+participant  System as sys
+
+activate t
+
+t -> sys : chooses to send the NHS daily reports of Covid-19 data
+
+activate sys
+
+sys --> t : sends successful notification
+
+deactivate sys
+
+deactivate t
+
+@enduml

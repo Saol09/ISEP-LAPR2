@@ -1,0 +1,310 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+skinparam linetype polyline
+
+
+Class Organization{
+
+
+}
+
+ 
+
+class ClinicalAnalysisLab{
+-int id
+-String name
+-String location
+-int phoneNumber
+-int TINnumber
+
+}
+
+ 
+
+class ClinicalAnalysis{
+-int internalCode
+-int NHScode
+-String method
+-Date validationDate
+-Hour validationHour
+}
+
+ 
+
+Class ChemicalLab{
+-String name
+-int phoneNumber
+-int teamNumber
+-int numberPositivResults
+}
+
+ 
+
+Class ChemicalAnalysis{
+-Date dateChemical
+-Hour hourChemical
+-Date hourDiagnostic
+}
+
+Class Notification{
+-String message
+}
+
+ 
+
+Class BloodAnalysis{
+-int numberRBC
+-int numberWBC
+-int numberPLT
+
+}
+
+ 
+
+Class CovidTest{
+
+ 
+
+}
+
+ 
+
+Class Sample{
+-int barcode
+}
+
+ 
+
+Class Client{
+-int cardNumber
+-int nhs
+-int birthDate
+-String sex
+-int TIF
+-int  phoneNumber
+-String email
+-String name
+-int password
+}
+
+ 
+
+Class LabOrder{
+-String typeOfTest
+-int parToBeMeasured
+}
+
+ 
+
+Class Doctor{
+
+}
+
+
+Class Recepcionist{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+
+}
+
+Class Address{
+
+}
+
+ 
+
+
+Class SpecialistDoctor{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+-int doctorIndexNumber
+ 
+
+}
+
+ 
+
+Class Result{
+-int result
+
+
+}
+
+ 
+
+Class ExternalModule{
+
+ 
+
+}
+
+ 
+
+Class Report{
+
+ 
+
+}
+
+ 
+
+Class ClinicalChemistryTec{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+}
+
+ 
+
+Class MedicalLabTechnician{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+ 
+
+}
+
+ 
+
+Class TypeOfTest{
+
+ 
+
+}
+
+ 
+
+Class Courier{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+ 
+
+}
+
+ 
+
+Class Delivery{
+
+ 
+
+}
+
+
+Class LabCoordinator{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+ 
+}
+
+
+class SampleRegistration{
+
+}
+ 
+Client"1" -- "1" Address : has >
+Recepcionist"1" -- "1" Address : has >
+SpecialistDoctor"1" -- "1" Address : has >
+ClinicalAnalysisLab"1" -- "1" Address : has >
+ChemicalLab"1" -- "1" Address : has >
+ClinicalChemistryTec"1" -- "1" Address : has >
+MedicalLabTechnician"1" -- "1" Address : has >
+Courier "1" -- "1" Address : has >
+
+Organization "1" -- "1..*" ClinicalAnalysisLab : has >
+Organization "1" -- "1" ChemicalLab : has >
+
+Courier "1" -- "1..*" Delivery : makes >
+Delivery "1" -- "1..*" Sample : has >
+
+ClinicalAnalysisLab "1" -- "1..*" ClinicalAnalysis : makes >
+ClinicalAnalysisLab "1" -- "1..*" MedicalLabTechnician : has >
+ClinicalAnalysisLab "1" -- "1..*" Recepcionist : has >
+ClinicalAnalysisLab "1" -- "1..*" Client : has >
+
+ClinicalAnalysis "1" -- "1" TypeOfTest : is a >
+ 
+ChemicalLab "1" -- "1..*" ClinicalChemistryTec : has >
+
+
+
+BloodAnalysis "1" -- "1" TypeOfTest : is a >
+CovidTest "1" -- "1"  TypeOfTest : is a >
+
+ 
+
+Client "1" -- "1..*" LabOrder : has >
+Client "1" -- "1..*" Result : has access >
+Client "1" -- "1..*" Sample : has >
+Client"1" -- "1" Notification : receives >
+
+
+ 
+
+Doctor "1" -- "1..*" LabOrder : prescribes >
+
+ 
+
+Recepcionist "1" -- "1..*" Client : registers >
+Recepcionist "1" -- "1..*" TypeOfTest : registers >
+
+
+SpecialistDoctor "1" -- "1..*" Result : analysis >
+SpecialistDoctor "1" -- "1..*" Report : writes >
+
+ExternalModule "1" -- "1..*" Report : validates >
+
+Report "1..*" -- "1" Client : delivered >
+
+ 
+
+LabCoordinator "1" --"1..*" Report : validates >
+LabCoordinator "1" --"1..*" ClinicalAnalysis : validates >
+
+ 
+
+ClinicalChemistryTec "1" -- "1..*" Sample : receives >
+ClinicalChemistryTec "1" -- "1..*" ChemicalAnalysis : makes >
+
+
+ 
+
+ChemicalAnalysis "1" -- "1" Result : generates >
+
+ 
+
+MedicalLabTechnician "1" -- "1..*" Sample : collects >
+MedicalLabTechnician "1" -- "1..*" SampleRegistration : makes >
+
+
+SampleRegistration "1" -- "1..*" Sample : has >
+
+
+LabOrder "1..*" -- "1..*" ClinicalAnalysis : indicates >
+
+ 
+
+@enduml

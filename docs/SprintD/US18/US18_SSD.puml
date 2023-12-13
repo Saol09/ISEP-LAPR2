@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor Administrator as admin
+participant  System as sys
+
+activate admin
+
+admin -> sys : chooses to send the NHS daily reports of Covid-19 data
+
+activate sys
+
+sys --> admin : sends successful notification
+
+deactivate sys
+
+deactivate admin
+
+@enduml

@@ -1,0 +1,70 @@
+@startuml
+autonumber
+'hide footbox
+actor "Adminstrator" as ADMIN
+
+participant ":RegisterClinicalAnalysisLabUI" as UI
+participant ":RegisterClinicalAnalysisLabController" AS CTRL
+participant ":Company" as CMP
+participant "clinicalAnalysisLab : ClincalAnalysisLab" as CAL
+participant ":TypeOfTest" as TOTEST
+
+activate ADMIN
+ADMIN -> UI : Register a Clinical Analysis Lab
+activate UI
+    UI --> ADMIN : Requests necessary credentials (idLaboratory, name, address, phoneNumber, tin)
+deactivate UI
+
+ADMIN -> UI : Inserts the credentials
+activate UI
+    UI -> CTRL : createClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin)
+    activate CTRL
+
+        CTRL -> CMP: clincalAnalysisLab = createClinicalAnalysisLabController(idLaboratory, name, address, phoneNumber, tin)
+        activate CMP
+    
+    
+    CMP -> CAL**: createClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin)
+
+     CTRL -> CMP : retTypeOfTest = getTypeTestList()
+     deactivate CMP
+     deactivate CTRL
+     deactivate CTRL
+     loop until the adminstrator choses all the type test
+    UI --> ADMIN : Shows the type test list
+deactivate UI
+
+
+ADMIN -> UI : Selects the type of test
+activate UI
+    UI -> CTRL : saveSelectedTypeTestList(selectedTypesTestList)
+    activate CTRL
+    CTRL -> CAL : addTypeOfTest(selectedTypesTestList)
+    activate CAL
+    deactivate CAL
+    deactivate CTRL
+    end
+    UI --> ADMIN : Shows and asks for confirmation data
+deactivate UI
+
+
+ADMIN -> UI : Confirms the data
+activate UI
+    UI -> CTRL : saveClinicalAnalysisLab()
+    activate CTRL
+        CTRL -> CMP : saveClinicalAnalysisLabController(clincalAnalysisLab)
+    activate CMP
+        CMP -> CMP : validateClinicalAnalysisLab(clincalAnalysisLab)
+    activate CMP
+    deactivate CMP
+        CMP -> CMP : addClinicalAnalysisLabController(clincalAnalysisLab)
+    activate CMP
+    deactivate CMP
+    deactivate CMP
+    CTRL --> UI : result
+    deactivate CTRL
+    UI --> ADMIN : informs success of operation
+deactivate UI
+deactivate ADMIN
+
+@enduml

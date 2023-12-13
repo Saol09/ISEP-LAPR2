@@ -1,0 +1,122 @@
+@startuml
+
+autonumber
+actor "Administrator" as admin
+
+participant ":RegisterEmployeeUI" as ui
+participant ":RegisterEmployeeController" AS ctrl
+participant ":Company" as cmp
+participant "emp : Employee" as emp
+participant "emp : SpecialistDoctor" as doc
+participant ":EmployeeStore" as empStore
+
+activate admin
+
+admin -> ui : requests to register a employee
+
+activate ui
+
+ui --> admin : asks for the necessary data about the employee (employeeID, organization role, name, address, phone number, email, SOC code)
+
+deactivate ui
+
+admin -> ui : introduces the requested data
+
+activate ui
+
+ui -> ctrl : newEmployee(employeeId, organizationRole, name, address, phoneNumber, email, socCode)
+
+deactivate ui
+
+admin -> ui : inserts the requested data
+
+activate ui
+
+ui -> ctrl : newEmployee()
+
+activate ctrl
+
+ctrl -> cmp : emp = newEmployee(employeeId, organizationRole, name, address, phoneNumber, email, socCode)
+
+activate cmp
+
+
+cmp -> emp : create(employeeId, organizationRole, name, address, phoneNumber,email, SOCcode)
+
+activate emp
+deactivate cmp
+
+emp -> emp :validateEmployee(emp)
+
+ui --> admin : presents all introduced information
+
+deactivate ui
+
+alt if organizationRole = SpecialistDoctor
+
+admin -> ui : confirms the information
+
+activate ui
+
+ui --> admin : requests the the doctor index number
+
+deactivate ui
+
+deactivate emp
+
+end
+
+admin -> ui : introduces the requested data
+
+activate ui
+
+ui -> ctrl : newEmployee(emp)
+
+ctrl -> cmp : setDIN(doctorIndexNumber)
+
+activate cmp
+
+cmp -> doc : create(doctorIndexNumber)
+
+activate doc
+
+doc -> doc : validateSpecialistDoctor(emp)
+
+
+deactivate cmp
+deactivate ctrl
+
+ui --> admin : validates the introduced data ans asks for confirmation
+
+
+deactivate doc
+deactivate ui
+
+admin -> ui : confirms
+
+activate ui
+
+ui -> ctrl : saveEmployee()
+
+
+
+activate ctrl
+
+ctrl -> cmp : saveEmployee(emp)
+
+activate cmp
+
+cmp -> empStore : addEmployee(emp)
+
+activate empStore
+
+deactivate cmp
+deactivate empStore
+deactivate cmp
+deactivate ctrl
+
+ui --> admin : informs success operation
+
+deactivate ui
+
+@enduml

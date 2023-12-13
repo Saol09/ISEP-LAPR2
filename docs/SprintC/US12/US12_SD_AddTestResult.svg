@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="696.25px" preserveAspectRatio="none" style="width:1747px;height:696px;" version="1.1" viewBox="0 0 1747 696" width="1747.5px" zoomAndPan="magnify"><defs><filter height="300%" id="fcxw9068wvfd7" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="536.9629" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="366.25" y="92.4512"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="51.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="372.5" y="140.3906"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="682.5" y="238.7695"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="75.8789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="682.5" y="504.3457"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="895" y="314.6484"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="75.8789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1081.25" y="390.5273"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="371.875" x2="371.875" y1="52.0117" y2="640.6641"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="688.75" x2="688.75" y1="52.0117" y2="640.6641"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="901.25" x2="901.25" y1="52.0117" y2="640.6641"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1087.5" x2="1087.5" y1="52.0117" y2="640.6641"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1328.125" x2="1328.125" y1="52.0117" y2="640.6641"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:5.0,5.0;" x1="1595.625" x2="1595.625" y1="52.0117" y2="640.6641"/><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="96.25" x="321.875" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="78.75" x="330.625" y="33.1665">test : Test</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="96.25" x="321.875" y="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="78.75" x="330.625" y="666.3306">test : Test</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="230" x="571.25" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="212.5" x="580" y="33.1665">testParam : TestParameter</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="230" x="571.25" y="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="212.5" x="580" y="666.3306">testParam : TestParameter</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="160" x="818.75" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="142.5" x="827.5" y="33.1665">type : TestOfType</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="160" x="818.75" y="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="142.5" x="827.5" y="666.3306">type : TestOfType</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="177.5" x="996.25" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="160" x="1005" y="33.1665">em : ExternalModule</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="177.5" x="996.25" y="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="160" x="1005" y="666.3306">em : ExternalModule</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="226.25" x="1213.125" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="208.75" x="1221.875" y="33.1665">refValue : ReferenceValue</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="226.25" x="1213.125" y="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="208.75" x="1221.875" y="666.3306">refValue : ReferenceValue</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="273.75" x="1456.875" y="6.25"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="256.25" x="1465.625" y="33.1665">tesResult : TestParameterResult</text><rect fill="#FEFECE" filter="url(#fcxw9068wvfd7)" height="39.5117" style="stroke:#A80036;stroke-width:1.875;" width="273.75" x="1456.875" y="639.4141"/><text fill="#000000" font-family="sans-serif" font-size="17.5" lengthAdjust="spacing" textLength="256.25" x="1465.625" y="666.3306">tesResult : TestParameterResult</text><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="536.9629" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="366.25" y="92.4512"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="51.6895" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="372.5" y="140.3906"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="682.5" y="238.7695"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="75.8789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="682.5" y="504.3457"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="37.9395" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="895" y="314.6484"/><rect fill="#FFFFFF" filter="url(#fcxw9068wvfd7)" height="75.8789" style="stroke:#A80036;stroke-width:1.25;" width="12.5" x="1081.25" y="390.5273"/><polygon fill="#A80036" points="351.25,87.4512,363.75,92.4512,351.25,97.4512,356.25,92.4512" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="0" x2="358.75" y1="92.4512" y2="92.4512"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="8.75" y="86.3806">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="328.75" x="22.5" y="86.3806">addTestResult(parameterCode, result, metric)</text><line style="stroke:#A80036;stroke-width:1.25;" x1="378.75" x2="437.5" y1="124.1406" y2="124.1406"/><line style="stroke:#A80036;stroke-width:1.25;" x1="437.5" x2="437.5" y1="124.1406" y2="140.3906"/><line style="stroke:#A80036;stroke-width:1.25;" x1="386.25" x2="437.5" y1="140.3906" y2="140.3906"/><polygon fill="#A80036" points="398.75,135.3906,386.25,140.3906,398.75,145.3906,393.75,140.3906" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="393.75" y="118.0701">2</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="272.5" x="407.5" y="118.0701">getTestParameterFor(parameterCode)</text><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="385" x2="437.5" y1="190.8301" y2="190.8301"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="437.5" x2="437.5" y1="190.8301" y2="207.0801"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="378.75" x2="437.5" y1="207.0801" y2="207.0801"/><polygon fill="#A80036" points="391.25,202.0801,378.75,207.0801,391.25,212.0801,386.25,207.0801" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="393.75" y="184.7595">3</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="70" x="407.5" y="184.7595">tesParam</text><polygon fill="#A80036" points="667.5,233.7695,680,238.7695,667.5,243.7695,672.5,238.7695" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="378.75" x2="675" y1="238.7695" y2="238.7695"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="387.5" y="232.699">4</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="107.5" x="401.25" y="232.699">getParameter()</text><polygon fill="#A80036" points="392.5,271.709,380,276.709,392.5,281.709,387.5,276.709" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="385" x2="687.5" y1="276.709" y2="276.709"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="400" y="270.6384">5</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="45" x="413.75" y="270.6384">param</text><polygon fill="#A80036" points="880,309.6484,892.5,314.6484,880,319.6484,885,314.6484" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="378.75" x2="887.5" y1="314.6484" y2="314.6484"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="387.5" y="308.5779">6</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="145" x="401.25" y="308.5779">getExternalModule()</text><polygon fill="#A80036" points="392.5,347.5879,380,352.5879,392.5,357.5879,387.5,352.5879" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="385" x2="900" y1="352.5879" y2="352.5879"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="400" y="346.5173">7</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="22.5" x="413.75" y="346.5173">em</text><polygon fill="#A80036" points="1066.25,385.5273,1078.75,390.5273,1066.25,395.5273,1071.25,390.5273" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="378.75" x2="1073.75" y1="390.5273" y2="390.5273"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="387.5" y="384.4568">8</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="191.25" x="401.25" y="384.4568">getReferenceValue(param)</text><polygon fill="#A80036" points="1313.75,423.4668,1326.25,428.4668,1313.75,433.4668,1318.75,428.4668" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="1093.75" x2="1321.25" y1="428.4668" y2="428.4668"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="8.75" x="1102.5" y="422.3962">9</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="191.25" x="1116.25" y="422.3962">getReferenceValue(param)</text><polygon fill="#A80036" points="392.5,461.4063,380,466.4063,392.5,471.4063,387.5,466.4063" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="385" x2="1086.25" y1="466.4063" y2="466.4063"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="400" y="460.3357">10</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="58.75" x="422.5" y="460.3357">refValue</text><polygon fill="#A80036" points="667.5,499.3457,680,504.3457,667.5,509.3457,672.5,504.3457" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="378.75" x2="675" y1="504.3457" y2="504.3457"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="387.5" y="498.2751">11</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="246.25" x="410" y="498.2751">addResult(result, metric, refValue)</text><polygon fill="#A80036" points="1581.25,537.2852,1593.75,542.2852,1581.25,547.2852,1586.25,542.2852" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;" x1="695" x2="1588.75" y1="542.2852" y2="542.2852"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="703.75" y="536.2146">12</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="218.75" x="726.25" y="536.2146">create(result, metric, refValue)</text><polygon fill="#A80036" points="392.5,575.2246,380,580.2246,392.5,585.2246,387.5,580.2246" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="385" x2="687.5" y1="580.2246" y2="580.2246"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="400" y="574.1541">13</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="17.5" x="422.5" y="574.1541">ok</text><polygon fill="#A80036" points="13.75,613.1641,1.25,618.1641,13.75,623.1641,8.75,618.1641" style="stroke:#A80036;stroke-width:1.25;"/><line style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:2.0,2.0;" x1="6.25" x2="365" y1="618.1641" y2="618.1641"/><text fill="#000000" font-family="sans-serif" font-size="16.25" font-weight="bold" lengthAdjust="spacing" textLength="17.5" x="21.25" y="612.0935">14</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="17.5" x="43.75" y="612.0935">ok</text><!--MD5=[355817f8f41475671185ec0da75959d9]
+@startuml
+autonumber
+'hide footbox
+
+
+participant "test : Test" as T
+participant "testParam : TestParameter" as TP
+participant "type : TestOfType" as TT
+participant "em : ExternalModule" as EM
+participant "refValue : ReferenceValue" as RV
+participant "tesResult : TestParameterResult" as PR
+
+
+ -> T : addTestResult(parameterCode, result, metric)
+activate T
+T -> T : getTestParameterFor(parameterCode)
+activate T
+
+T - -> T : tesParam
+deactivate T
+
+T -> TP : getParameter()
+activate TP
+
+TP - -> T : param
+deactivate TP
+
+T -> TT : getExternalModule()
+activate TT
+
+TT - -> T : em
+deactivate TT
+
+T -> EM : getReferenceValue(param)
+activate EM
+
+EM -> RV : getReferenceValue(param)
+
+EM - -> T : refValue
+deactivate EM
+
+T -> TP : addResult(result, metric, refValue)
+activate TP
+
+TP -> PR : create(result, metric, refValue)
+
+TP - -> T : ok
+deactivate TP
+
+ <- - T : ok
+
+@enduml
+
+@startuml
+autonumber
+
+
+participant "test : Test" as T
+participant "testParam : TestParameter" as TP
+participant "type : TestOfType" as TT
+participant "em : ExternalModule" as EM
+participant "refValue : ReferenceValue" as RV
+participant "tesResult : TestParameterResult" as PR
+
+
+ -> T : addTestResult(parameterCode, result, metric)
+activate T
+T -> T : getTestParameterFor(parameterCode)
+activate T
+
+T - -> T : tesParam
+deactivate T
+
+T -> TP : getParameter()
+activate TP
+
+TP - -> T : param
+deactivate TP
+
+T -> TT : getExternalModule()
+activate TT
+
+TT - -> T : em
+deactivate TT
+
+T -> EM : getReferenceValue(param)
+activate EM
+
+EM -> RV : getReferenceValue(param)
+
+EM - -> T : refValue
+deactivate EM
+
+T -> TP : addResult(result, metric, refValue)
+activate TP
+
+TP -> PR : create(result, metric, refValue)
+
+TP - -> T : ok
+deactivate TP
+
+ <- - T : ok
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

@@ -1,0 +1,8 @@
+Q: What are the data to show the customer? and in what way do we have to show? do you have any examples you can give us?
+A: I want to access the application to view the results of the tests I have performed. This includes the report made by the specialist doctor.
+The client tests must be shown ordered from the most recent to the oldest one. The test results are shown only after the client has selected a test.
+
+----------------------------------------------
+
+Q: In US01 which date should be used to arrange the tests in order?The date the test is done or the validation date?
+A: The test registration date.

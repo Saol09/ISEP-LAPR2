@@ -1,0 +1,37 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class ShowResultsUI{
+}
+
+class ShowResultsController{
++getTestsByClient(clientTinNum)
++getTestResultsAndReport(code)
+}
+
+class Company{
+-designation
+
++getTestStore()
+}
+
+
+class TestStore{
++getTestsByClient(clientTinNum)
++getTestResultsAndReport(code)
+}
+
+class TestMapper{
++toDto(lTests)
++toResultAndReportDto(test)
+}
+
+ShowResultsUI ..> ShowResultsController
+ShowResultsController ..> Company
+ShowResultsController ..> TestStore
+ShowResultsController ..> TestMapper
+Company "1"->"1" TestStore : adopts
+
+
+@enduml

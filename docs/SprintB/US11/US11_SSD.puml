@@ -1,0 +1,22 @@
+@startuml
+autonumber
+actor "receptionist" as recep
+
+activate recep
+recep -> ":System" : asks to register a new parameter category
+activate ":System"
+":System" --> recep : requests data (code,description,nhsid)
+deactivate ":System"
+
+recep -> ":System" : types requested data
+activate ":System"
+":System" --> recep : shows the data and requests a confirmation
+deactivate ":System"
+
+recep -> ":System" : confirms the data
+activate ":System"
+":System" --> recep : informs opreration success
+deactivate ":System"
+
+deactivate recep
+@enduml

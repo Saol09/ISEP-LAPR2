@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor "Laboratory Coordinator" as LC
+ LC -> ":System" : Asks to import data
+ activate LC
+ activate ":System"
+ ":System" --> LC :Asks for the path to the file
+ deactivate ":System"
+ LC -> ":System" : Writes the path
+ activate ":System"
+ ":System" --> LC : shows the path and asks for confirmation
+ deactivate ":System"
+ LC -> ":System" : confirms
+ activate ":System"
+ ":System" --> LC : saves the information on the file while showing to the client the saved information
+ @enduml

@@ -1,0 +1,46 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+class CreateDiagnosisReportUI{
+}
+
+class CreateDiagnosisReportController{
++getReadyTests()
++getInfoTest()
++createReport()
++saveReport()
+}
+
+class Company{
+-designation
+
++getTestStore()
++getInfoTest(id)
++getTestStore()
+}
+
+class DiagnosisReport{
+-report
+
++create(report)
+}
+
+class TestStore{
++getReadyTests(state)
++getTest(tId)
+}
+
+class TestMapper{
++toDto(lTests)
+}
+
+CreateDiagnosisReportUI ..> CreateDiagnosisReportController
+CreateDiagnosisReportController ..> Company
+CreateDiagnosisReportController ..> TestStore
+CreateDiagnosisReportController ..> TestMapper
+Company "1"->"1" TestStore : adopts
+TestStore "1"->"*" DiagnosisReport : stores
+Company "1"-left>"*" DiagnosisReport : creates
+
+@enduml

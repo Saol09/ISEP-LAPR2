@@ -1,0 +1,41 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+class CreateParameterUI {
+}
+
+class CreateParameterControllers {
+-code
+-name
+-desc
++ createParameter(code,name,desc)
+
+}
+
+class Company{
+-designation
++createParameter(code,name,desc)
++saveParameter(param)
++validateParameter(param)
++addParameter(param)
++getCategotybyCode(categoryCode)
+}
+class Parameter{
+code
+name
+desc
++createParameter(code,name,desc)
+}
+class ParameterCategory{
+code
+description
+nhsld
+}
+
+CreateParameterUI ..> CreateParameterControllers
+CreateParameterControllers ..> Company
+Company"*" ..> "1" Parameter : has
+Company ..> ParameterCategory : adopts
+Parameter "*" ..> "1" ParameterCategory :categorized by
+@enduml

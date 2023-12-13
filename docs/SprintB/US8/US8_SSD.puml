@@ -1,0 +1,30 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrator" as ADMIN
+
+participant ":System" as SYSTEM
+activate ADMIN
+ADMIN -> SYSTEM : Wishes to register a Clinical Analysis Lab
+activate SYSTEM
+SYSTEM --> ADMIN : Requests necessary credentials (idLaboratory, name, address, phoneNumber, tin)
+deactivate SYSTEM
+
+ADMIN -> SYSTEM : Inserts the credentials
+activate SYSTEM
+loop
+SYSTEM --> ADMIN : Show the type of test list
+deactivate SYSTEM
+
+ADMIN -> SYSTEM : Selects the type of test from the list
+activate SYSTEM
+end
+SYSTEM --> ADMIN : Validates the data and asks for confirmation
+deactivate SYSTEM
+
+ADMIN -> SYSTEM : Confirms the data
+activate SYSTEM
+SYSTEM --> ADMIN : Saves data in DB and informs success of operation
+deactivate SYSTEM
+
+@enduml

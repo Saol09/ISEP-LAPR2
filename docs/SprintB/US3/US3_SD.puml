@@ -1,0 +1,57 @@
+@startuml
+autonumber
+'hide footbox
+actor "Receptionist" as R
+
+participant "RegisterClientUI" as UI
+participant "RegisterClientController" AS RCC
+participant ":Company" as CMP
+participant "store:ClientStore" as CS
+participant "client:Client" as CLI
+
+
+activate R
+R -> UI : Register a client
+activate UI
+    UI --> R : Requests necessary credentials (cardNumber, nhs, birthDate, sex, TIF, phoneNumber, email, name, password, address)
+deactivate UI
+
+R -> UI : Inserts the data
+activate UI
+    UI -> RCC : newClient(cardNumber, nhs, birthDate, sex, TIF, phoneNumber, email, name, password, address)
+    activate RCC
+    
+        RCC -> CS: client = newClient(name, citizenCardNumber, nhsNumber,\n tinNumber, birthDate, sex, phoneNumber, email)
+
+        activate CS
+        deactivate CS
+        CS --> CLI** : create(newClient)
+
+
+     
+     RCC -> CS: validateClient(client)
+
+     deactivate RCC
+        
+    
+    
+    
+    UI --> R : Shows the data and asks for confirmation
+deactivate UI
+
+R -> UI : Confirms the data
+activate UI
+    UI -> RCC : registerClient()
+    activate RCC
+    RCC -> CMP : registerClient(client)
+    activate CMP
+    CMP -> CMP : validateClient(client)
+    CMP -> CMP : addClient(client)
+    
+    deactivate CMP
+    deactivate RCC
+    UI --> R : informs success of operation
+deactivate UI
+deactivate R
+
+@enduml

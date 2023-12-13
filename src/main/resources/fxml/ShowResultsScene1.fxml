@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ShowResultsScene1UI">
+   <center>
+      <GridPane prefHeight="350.0" prefWidth="384.0" BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <TextArea fx:id="txtAreaTests" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="170.0" prefWidth="475.0" />
+            <Label alignment="CENTER_RIGHT" prefHeight="17.0" prefWidth="247.0" text="Type the test code that you want to consult :" GridPane.halignment="LEFT" GridPane.rowIndex="1" />
+            <TextField fx:id="txtCode" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onAction="#txtCode" prefHeight="25.0" prefWidth="234.0" promptText="Test code" GridPane.halignment="RIGHT" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Button fx:id="btnEnter" mnemonicParsing="false" onAction="#btnEnterAction" prefHeight="45.0" prefWidth="70.0" text="Enter" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </center>
+   <top>
+      <Label text="List of tests performed by you:" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+   </top>
+   <bottom>
+      <Button fx:id="btnCancel" mnemonicParsing="false" onAction="#btnCancelAction" prefHeight="36.0" prefWidth="71.0" text="Cancel" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

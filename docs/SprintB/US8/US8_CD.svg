@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1078.75px" preserveAspectRatio="none" style="width:748px;height:1078px;" version="1.1" viewBox="0 0 748 1078" width="748.75px" zoomAndPan="magnify"><defs><filter height="300%" id="flux7o59tquzy" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[f0388b23b463f23399cd154ed50b2706]
+class RegisterClinicalAnalysisLabUI--><rect codeLine="3" fill="#FEFECE" filter="url(#flux7o59tquzy)" height="60" id="RegisterClinicalAnalysisLabUI" style="stroke:#A80036;stroke-width:1.875;" width="248.75" x="336.25" y="8.75"/><ellipse cx="355" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M357.5,24.375 Q357.7539,23.75 358.0469,23.4375 Q358.3398,23.125 358.6719,23.125 Q359.2578,23.125 359.6289,23.4766 Q360,23.8281 360,24.6484 L360,26.6016 Q360,27.4219 359.6484,27.7734 Q359.2969,28.125 358.75,28.125 Q358.2617,28.125 357.9492,27.9102 Q357.6367,27.6953 357.5,27.1289 Q357.4414,26.7383 357.2266,26.5234 Q356.8359,26.1133 356.1328,25.8789 Q355.4297,25.625 354.7266,25.625 Q353.8477,25.625 353.1055,25.9766 Q352.3828,26.3281 351.8164,27.1094 Q351.25,27.8906 351.25,28.9648 L351.25,30.1172 Q351.25,31.4063 352.3047,32.2656 Q353.3594,33.125 355.2344,33.125 Q356.3477,33.125 357.1289,32.8711 Q357.5781,32.7344 358.0859,32.2852 Q358.418,32.0313 358.5938,31.9531 Q358.7695,31.875 358.9844,31.875 Q359.3945,31.875 359.6875,32.207 Q360,32.5195 360,32.9688 Q360,33.3984 359.5703,33.9063 Q358.9453,34.6484 357.9492,35.0586 Q356.6406,35.625 355.0391,35.625 Q353.1641,35.625 351.6602,34.8828 Q350.4492,34.2969 349.5898,33.0273 Q348.75,31.7578 348.75,30.2539 L348.75,28.8867 Q348.75,27.3242 349.4922,25.957 Q350.2539,24.5898 351.5625,23.8672 Q352.8906,23.125 354.375,23.125 Q355.2734,23.125 356.0547,23.4375 Q356.8359,23.75 357.5,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="208.75" x="372.5" y="34.8877">RegisterClinicalAnalysisLabUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="337.5" x2="583.75" y1="48.75" y2="48.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="337.5" x2="583.75" y1="58.75" y2="58.75"/><!--MD5=[f5f648e198ddb5c95afbb1c1a7e0eafe]
+class ClinicalAnalysisLabController--><rect codeLine="7" fill="#FEFECE" filter="url(#flux7o59tquzy)" height="129.1797" id="ClinicalAnalysisLabController" style="stroke:#A80036;stroke-width:1.875;" width="541.25" x="190" y="143.75"/><ellipse cx="354.0625" cy="163.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M356.5625,159.375 Q356.8164,158.75 357.1094,158.4375 Q357.4023,158.125 357.7344,158.125 Q358.3203,158.125 358.6914,158.4766 Q359.0625,158.8281 359.0625,159.6484 L359.0625,161.6016 Q359.0625,162.4219 358.7109,162.7734 Q358.3594,163.125 357.8125,163.125 Q357.3242,163.125 357.0117,162.9102 Q356.6992,162.6953 356.5625,162.1289 Q356.5039,161.7383 356.2891,161.5234 Q355.8984,161.1133 355.1953,160.8789 Q354.4922,160.625 353.7891,160.625 Q352.9102,160.625 352.168,160.9766 Q351.4453,161.3281 350.8789,162.1094 Q350.3125,162.8906 350.3125,163.9648 L350.3125,165.1172 Q350.3125,166.4063 351.3672,167.2656 Q352.4219,168.125 354.2969,168.125 Q355.4102,168.125 356.1914,167.8711 Q356.6406,167.7344 357.1484,167.2852 Q357.4805,167.0313 357.6563,166.9531 Q357.832,166.875 358.0469,166.875 Q358.457,166.875 358.75,167.207 Q359.0625,167.5195 359.0625,167.9688 Q359.0625,168.3984 358.6328,168.9063 Q358.0078,169.6484 357.0117,170.0586 Q355.7031,170.625 354.1016,170.625 Q352.2266,170.625 350.7227,169.8828 Q349.5117,169.2969 348.6523,168.0273 Q347.8125,166.7578 347.8125,165.2539 L347.8125,163.8867 Q347.8125,162.3242 348.5547,160.957 Q349.3164,159.5898 350.625,158.8672 Q351.9531,158.125 353.4375,158.125 Q354.3359,158.125 355.1172,158.4375 Q355.8984,158.75 356.5625,159.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="202.5" x="379.6875" y="169.8877">ClinicalAnalysisLabController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="191.25" x2="730" y1="183.75" y2="183.75"/><line style="stroke:#A80036;stroke-width:1.875;" x1="191.25" x2="730" y1="193.75" y2="193.75"/><ellipse cx="203.75" cy="207.5" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="508.75" x="215" y="213.0237">createClinicalAnalysisLabController(idLaboratory, name, address, phoneNumber, tin)</text><ellipse cx="203.75" cy="224.7949" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="326.25" x="215" y="230.3186">saveClinicalAnalysisLabController(clincalAnalysisLab)</text><ellipse cx="203.75" cy="242.0898" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="121.25" x="215" y="247.6135">getTypeOfTestList()</text><ellipse cx="203.75" cy="259.3848" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="168.75" x="215" y="264.9084">getTypeOfTestObj(String id)</text><!--MD5=[02e4b9b7573f1156f41e60aa5b4e25a4]
+class Company--><rect codeLine="15" fill="#FEFECE" filter="url(#flux7o59tquzy)" height="181.0645" id="Company" style="stroke:#A80036;stroke-width:1.875;" width="558.75" x="8.75" y="347.5"/><ellipse cx="249.6875" cy="367.5" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M252.1875,363.125 Q252.4414,362.5 252.7344,362.1875 Q253.0273,361.875 253.3594,361.875 Q253.9453,361.875 254.3164,362.2266 Q254.6875,362.5781 254.6875,363.3984 L254.6875,365.3516 Q254.6875,366.1719 254.3359,366.5234 Q253.9844,366.875 253.4375,366.875 Q252.9492,366.875 252.6367,366.6602 Q252.3242,366.4453 252.1875,365.8789 Q252.1289,365.4883 251.9141,365.2734 Q251.5234,364.8633 250.8203,364.6289 Q250.1172,364.375 249.4141,364.375 Q248.5352,364.375 247.793,364.7266 Q247.0703,365.0781 246.5039,365.8594 Q245.9375,366.6406 245.9375,367.7148 L245.9375,368.8672 Q245.9375,370.1563 246.9922,371.0156 Q248.0469,371.875 249.9219,371.875 Q251.0352,371.875 251.8164,371.6211 Q252.2656,371.4844 252.7734,371.0352 Q253.1055,370.7813 253.2813,370.7031 Q253.457,370.625 253.6719,370.625 Q254.082,370.625 254.375,370.957 Q254.6875,371.2695 254.6875,371.7188 Q254.6875,372.1484 254.2578,372.6563 Q253.6328,373.3984 252.6367,373.8086 Q251.3281,374.375 249.7266,374.375 Q247.8516,374.375 246.3477,373.6328 Q245.1367,373.0469 244.2773,371.7773 Q243.4375,370.5078 243.4375,369.0039 L243.4375,367.6367 Q243.4375,366.0742 244.1797,364.707 Q244.9414,363.3398 246.25,362.6172 Q247.5781,361.875 249.0625,361.875 Q249.9609,361.875 250.7422,362.1875 Q251.5234,362.5 252.1875,363.125 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="66.25" x="275.3125" y="373.6377">Company</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="566.25" y1="387.5" y2="387.5"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="397.5"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="103.75" x="33.75" y="406.7737">string description</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="18.75" y="414.7949"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="200" x="33.75" y="424.0686">List&lt;TypeOfTest&gt; typeOfTestList</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="566.25" y1="432.0898" y2="432.0898"/><ellipse cx="22.5" cy="445.8398" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="526.25" x="33.75" y="451.3635">createClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin, typeOfTest)</text><ellipse cx="22.5" cy="463.1348" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="285" x="33.75" y="468.6584">validateClinicalAnalysisLab(clincalAnalysisLab)</text><ellipse cx="22.5" cy="480.4297" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="326.25" x="33.75" y="485.9534">saveClinicalAnalysisLabController(clincalAnalysisLab)</text><ellipse cx="22.5" cy="497.7246" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="121.25" x="33.75" y="503.2483">getTypeOfTestList()</text><ellipse cx="22.5" cy="515.0195" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="168.75" x="33.75" y="520.5432">getTypeOfTestObj(String id)</text><!--MD5=[28d9d7ef96b34fdc6ab3814c5cef79ce]
+class ClinicalAnalysisLab--><rect codeLine="27" fill="#FEFECE" filter="url(#flux7o59tquzy)" height="457.7832" id="ClinicalAnalysisLab" style="stroke:#A80036;stroke-width:1.875;" width="445" x="238.125" y="603.75"/><ellipse cx="387.8125" cy="623.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M390.3125,619.375 Q390.5664,618.75 390.8594,618.4375 Q391.1523,618.125 391.4844,618.125 Q392.0703,618.125 392.4414,618.4766 Q392.8125,618.8281 392.8125,619.6484 L392.8125,621.6016 Q392.8125,622.4219 392.4609,622.7734 Q392.1094,623.125 391.5625,623.125 Q391.0742,623.125 390.7617,622.9102 Q390.4492,622.6953 390.3125,622.1289 Q390.2539,621.7383 390.0391,621.5234 Q389.6484,621.1133 388.9453,620.8789 Q388.2422,620.625 387.5391,620.625 Q386.6602,620.625 385.918,620.9766 Q385.1953,621.3281 384.6289,622.1094 Q384.0625,622.8906 384.0625,623.9648 L384.0625,625.1172 Q384.0625,626.4063 385.1172,627.2656 Q386.1719,628.125 388.0469,628.125 Q389.1602,628.125 389.9414,627.8711 Q390.3906,627.7344 390.8984,627.2852 Q391.2305,627.0313 391.4063,626.9531 Q391.582,626.875 391.7969,626.875 Q392.207,626.875 392.5,627.207 Q392.8125,627.5195 392.8125,627.9688 Q392.8125,628.3984 392.3828,628.9063 Q391.7578,629.6484 390.7617,630.0586 Q389.4531,630.625 387.8516,630.625 Q385.9766,630.625 384.4727,629.8828 Q383.2617,629.2969 382.4023,628.0273 Q381.5625,626.7578 381.5625,625.2539 L381.5625,623.8867 Q381.5625,622.3242 382.3047,620.957 Q383.0664,619.5898 384.375,618.8672 Q385.7031,618.125 387.1875,618.125 Q388.0859,618.125 388.8672,618.4375 Q389.6484,618.75 390.3125,619.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="135" x="413.4375" y="629.8877">ClinicalAnalysisLab</text><line style="stroke:#A80036;stroke-width:1.875;" x1="239.375" x2="681.875" y1="643.75" y2="643.75"/><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="653.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="113.75" x="263.125" y="663.0237">string idLaboratory</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="671.0449"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="70" x="263.125" y="680.3186">string name</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="688.3398"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="87.5" x="263.125" y="697.6135">string address</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="705.6348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="121.25" x="263.125" y="714.9084">string phoneNumber</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="722.9297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="51.25" x="263.125" y="732.2034">string tin</text><rect fill="none" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="740.2246"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="200" x="263.125" y="749.4983">List&lt;TypeOfTest&gt; typeOfTestList</text><line style="stroke:#A80036;stroke-width:1.875;" x1="239.375" x2="681.875" y1="757.5195" y2="757.5195"/><ellipse cx="251.875" cy="771.2695" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="412.5" x="263.125" y="776.7932">ClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin)</text><ellipse cx="251.875" cy="788.5645" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="218.75" x="263.125" y="794.0881">setIdLaboratory(string idLaboratory)</text><ellipse cx="251.875" cy="805.8594" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="132.5" x="263.125" y="811.3831">setName(string name)</text><ellipse cx="251.875" cy="823.1543" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="168.75" x="263.125" y="828.678">setAddress(string address)</text><ellipse cx="251.875" cy="840.4492" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="233.75" x="263.125" y="845.9729">setPhoneNumber(string phoneNumber)</text><ellipse cx="251.875" cy="857.7441" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="97.5" x="263.125" y="863.2678">setTin(string tin)</text><ellipse cx="251.875" cy="875.0391" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="105" x="263.125" y="880.5627">getIdLaboratory()</text><ellipse cx="251.875" cy="892.334" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="62.5" x="263.125" y="897.8577">getName()</text><ellipse cx="251.875" cy="909.6289" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="81.25" x="263.125" y="915.1526">getAddress()</text><ellipse cx="251.875" cy="926.9238" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="112.5" x="263.125" y="932.4475">getPhoneNumber()</text><ellipse cx="251.875" cy="944.2188" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="46.25" x="263.125" y="949.7424">getTin()</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="957.7637"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="270" x="263.125" y="967.0374">checkIdLaboratoryRules(string idLaboratory)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="975.0586"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="183.75" x="263.125" y="984.3323">checkNameRules(string name)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="992.3535"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="220" x="263.125" y="1001.6272">checkAddressRules(string address)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="1009.6484"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="285" x="263.125" y="1018.9221">checkPhoneNumberRules(string phoneNumber)</text><rect fill="#F24D5C" height="7.5" style="stroke:#C82930;stroke-width:1.25;" width="7.5" x="248.125" y="1026.9434"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="148.75" x="263.125" y="1036.217">checkTinRules(string tin)</text><ellipse cx="251.875" cy="1047.9883" fill="#84BE84" rx="3.75" ry="3.75" style="stroke:#038048;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="56.25" x="263.125" y="1053.512">toString()</text><!--MD5=[c43448a313345cc2bd449bcffe8bdfe3]
+link RegisterClinicalAnalysisLabUI to ClinicalAnalysisLabController--><path codeLine="55" d="M460.625,69.0625 C460.625,87.85 460.625,113.1375 460.625,136.9125 " fill="none" id="RegisterClinicalAnalysisLabUI-to-ClinicalAnalysisLabController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="460.625,143.575,465.625,132.325,460.625,137.325,455.625,132.325,460.625,143.575" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[ff87b1ee5499f5d8ffbf601f161a6b7b]
+link ClinicalAnalysisLabController to Company--><path codeLine="56" d="M412.575,272.75 C396.2625,294.2625 377.6625,318.7875 359.9125,342.2 " fill="none" id="ClinicalAnalysisLabController-to-Company" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="355.9,347.4875,366.6977,341.5738,359.6899,342.5177,358.746,335.5099,355.9,347.4875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[14425c86e1e95c36a97a680926c42ff4]
+link Company to ClinicalAnalysisLab--><path codeLine="57" d="M327.4875,528.7875 C336.7375,549.825 347.0375,573.2125 357.6875,597.4 " fill="none" id="Company-to-ClinicalAnalysisLab" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="360.4,603.5625,360.4535,591.2515,357.8865,597.8402,351.2978,595.2732,360.4,603.5625" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[2bf69c4b8357bb87803e4d64e9d9f3ca]
+link ClinicalAnalysisLabController to ClinicalAnalysisLab--><path codeLine="58" d="M538.175,272.6 C558.8,293.9875 578.3875,319.5875 589.375,347.5 C620.6375,426.9 608.9875,516.5625 582.725,596.925 " fill="none" id="ClinicalAnalysisLabController-to-ClinicalAnalysisLab" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="580.65,603.1875,588.9345,594.081,582.6157,597.2547,579.442,590.9358,580.65,603.1875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[ba2683706f2709b6cbf1ad01ea8412ac]
+@startuml
+'https://plantuml.com/class-diagram
+
+class RegisterClinicalAnalysisLabUI
+{
+}
+
+class ClinicalAnalysisLabController
+{
+    +createClinicalAnalysisLabController(idLaboratory, name, address, phoneNumber, tin)
+    +saveClinicalAnalysisLabController(clincalAnalysisLab)
+    +getTypeOfTestList()
+    +getTypeOfTestObj(String id)
+}
+
+class Company
+{
+-string description
+-List<TypeOfTest> typeOfTestList
+
++createClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin, typeOfTest)
++validateClinicalAnalysisLab(clincalAnalysisLab)
++saveClinicalAnalysisLabController(clincalAnalysisLab)
++getTypeOfTestList()
++getTypeOfTestObj(String id)
+}
+
+class ClinicalAnalysisLab
+{
+-string idLaboratory
+-string name
+-string address
+-string phoneNumber
+-string tin
+-List<TypeOfTest> typeOfTestList
+
++ClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin)
++setIdLaboratory(string idLaboratory)
++setName(string name)
++setAddress(string address)
++setPhoneNumber(string phoneNumber)
++setTin(string tin)
++getIdLaboratory()
++getName()
++getAddress()
++getPhoneNumber()
++getTin()
+-checkIdLaboratoryRules(string idLaboratory)
+-checkNameRules(string name)
+-checkAddressRules(string address)
+-checkPhoneNumberRules(string phoneNumber)
+-checkTinRules(string tin)
++toString()
+}
+
+RegisterClinicalAnalysisLabUI ..> ClinicalAnalysisLabController
+ClinicalAnalysisLabController ..> Company
+Company ..> ClinicalAnalysisLab
+ClinicalAnalysisLabController ..> ClinicalAnalysisLab
+@enduml
+
+@startuml
+
+class RegisterClinicalAnalysisLabUI
+{
+}
+
+class ClinicalAnalysisLabController
+{
+    +createClinicalAnalysisLabController(idLaboratory, name, address, phoneNumber, tin)
+    +saveClinicalAnalysisLabController(clincalAnalysisLab)
+    +getTypeOfTestList()
+    +getTypeOfTestObj(String id)
+}
+
+class Company
+{
+-string description
+-List<TypeOfTest> typeOfTestList
+
++createClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin, typeOfTest)
++validateClinicalAnalysisLab(clincalAnalysisLab)
++saveClinicalAnalysisLabController(clincalAnalysisLab)
++getTypeOfTestList()
++getTypeOfTestObj(String id)
+}
+
+class ClinicalAnalysisLab
+{
+-string idLaboratory
+-string name
+-string address
+-string phoneNumber
+-string tin
+-List<TypeOfTest> typeOfTestList
+
++ClinicalAnalysisLab(idLaboratory, name, address, phoneNumber, tin)
++setIdLaboratory(string idLaboratory)
++setName(string name)
++setAddress(string address)
++setPhoneNumber(string phoneNumber)
++setTin(string tin)
++getIdLaboratory()
++getName()
++getAddress()
++getPhoneNumber()
++getTin()
+-checkIdLaboratoryRules(string idLaboratory)
+-checkNameRules(string name)
+-checkAddressRules(string address)
+-checkPhoneNumberRules(string phoneNumber)
+-checkTinRules(string tin)
++toString()
+}
+
+RegisterClinicalAnalysisLabUI ..> ClinicalAnalysisLabController
+ClinicalAnalysisLabController ..> Company
+Company ..> ClinicalAnalysisLab
+ClinicalAnalysisLabController ..> ClinicalAnalysisLab
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

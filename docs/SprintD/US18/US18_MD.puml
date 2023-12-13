@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+
+skinparam classAttributeIconSize 0
+hide methods
+
+
+class Company{
+-designation
+}
+
+
+class Test{
+-code;
+-nhsCode;
+-state;
+-report;
+-testParameter;
+-clinicalAnalysisLab;
+-typeOfTest;
+-testParameterResult;
+-lientTinNum;
+-sampleList;
+}
+
+class Client{
+-name;
+-citizenCardNumber;
+-nhsNumber;
+-tinNumber;
+-birthDate;
+-sex;
+-phoneNumber;
+-email;
+-user;
+}
+
+class NHS{
+}
+
+Company "1"-right-"*" NHS: > sends automative reports
+Company "1"--"*" Test: > has/does
+Company "1"--"*" Client: > has
+
+
+
+@enduml

@@ -1,0 +1,31 @@
+@startuml
+
+class CreateParameterCategoryUI
+
+class CreateParameterCategoryController{
++CreateParameterCategory(Code,description,nhsid)
++saveTestTypeList(TestType)
++saveParameterCategory()
+}
+
+class Company{
+-String designation
++CreateParameterCategory(Code,description,nhsid)
++validateParameterCategory(pc)
++saveParameterCategory(pc)
+-addParameterCategory(pc)
+}
+
+class ParameterCategory {
+-code
+-description
+-nhsid
++ParameterCategory(Code,description,nhsid)
+}
+
+CreateParameterCategoryUI ..> CreateParameterCategoryController
+CreateParameterCategoryController ..> Company
+CreateParameterCategoryController ..> ParameterCategory
+Company "1" -> "*" ParameterCategory : adopts
+
+@enduml

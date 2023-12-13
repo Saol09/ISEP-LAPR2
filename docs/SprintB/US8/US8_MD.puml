@@ -1,0 +1,30 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+skinparam linetype polyline
+
+
+Class Company{
+-designation
+}
+
+Class Admin{
+}
+
+Class ClinicalAnalysisLab{
+-idLaboratory
+-name
+-address
+-phoneNumber
+-tin
+}
+
+Class TypeOfTest{
+}
+
+Company "1" -- "*" Admin : knows >
+Admin "1..*" -- "1" ClinicalAnalysisLab : creates >
+ClinicalAnalysisLab "1" -- "1..*" TypeOfTest : performs >
+
+@enduml

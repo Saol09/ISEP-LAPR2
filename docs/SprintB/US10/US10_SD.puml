@@ -1,0 +1,65 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Administrator" as Admin
+participant ":CreateParameterUI" as UI
+participant ":CreateParameterController" as CTRL
+participant ":Company" as Comp
+participant ":Parameter" as param
+participant "ParameterCategory" as CAT
+participant "lc\n:List<ParameterCategory>" as LIST_CAT
+
+activate Admin
+Admin -> UI : asks to create a new parameter
+activate UI
+UI --> Admin : requests data (code, name,desc)
+deactivate UI
+
+Admin -> UI : types requested data
+activate UI
+
+UI -> CTRL : lc=getParameterCategories()
+
+activate CTRL
+
+CTRL -> Comp : lc=getParameterCategories()
+activate Comp
+|||
+deactivate Comp
+
+deactivate CTRL
+UI --> Admin : shows parameter categories list and ask to select one
+deactivate Comp
+deactivate UI
+Admin -> UI : selects a parameter category
+activate UI
+
+UI --> Admin: shows all data and requests confirmation
+deactivate Comp
+deactivate CTRL
+deactivate UI
+Admin -> UI : confirms the data
+activate UI
+
+UI -> CTRL : createParameter(code,name,desc)
+activate CTRL
+CTRL -> Comp : cat=getCategoryByCode(categoryCode)
+activate Comp
+|||
+deactivate Comp
+CTRL -> Comp: parameter=createParameter(code,name,desc,cat)
+activate Comp
+Comp --> param**: create(code,name,desc)
+CTRL --> Comp : saveParameter(param)
+Comp -> Comp: validateParameter(param)
+Comp -> Comp: addParameter(param)
+CTRL --> UI: result
+
+UI --> Admin : informs operation success
+deactivate Comp
+deactivate CTRL
+deactivate UI
+
+deactivate Admin
+@enduml

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ClinicalChemistryTechnologistSceneUI">
+   <bottom>
+      <Button fx:id="btnLogout" mnemonicParsing="false" onAction="#btnLogoutAction" text="Logout" BorderPane.alignment="CENTER" />
+   </bottom>
+   <top>
+      <Label text="Clinical Chemistry Technologist Menu" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+   </top>
+   <center>
+      <GridPane BorderPane.alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btnRecord" mnemonicParsing="false" onAction="#btnRecordAction" prefHeight="70.0" prefWidth="150.0" text="Record a result of a given test" textAlignment="CENTER" wrapText="true" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+            <Button fx:id="btnConsult" mnemonicParsing="false" onAction="#btnConsultAction" prefHeight="70.0" prefWidth="150.0" text="Consult the historical tests performed by a particular client" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER" />
+         </children>
+      </GridPane>
+   </center>
+</BorderPane>

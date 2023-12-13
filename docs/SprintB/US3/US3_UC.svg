@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="199px" preserveAspectRatio="none" style="width:205px;height:199px;background:#FFFFFF;" version="1.1" viewBox="0 0 205 199" width="205px" zoomAndPan="magnify"><defs><filter height="300%" id="f1ft2vwo3ymdjr" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><ellipse cx="99.6693" cy="166.6339" fill="#FEFECE" filter="url(#f1ft2vwo3ymdjr)" rx="93.6693" ry="21.1339" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="150" x="24.6693" y="169.4805">UC3 - Register Client</text><!--MD5=[87a04b683345c3cce94ac9a6e159ab2f]
+entity Receptionist--><ellipse cx="99.5" cy="14" fill="#FEFECE" filter="url(#f1ft2vwo3ymdjr)" rx="8" ry="8" style="stroke:#A80036;stroke-width:1.5;"/><path d="M99.5,22 L99.5,49 M86.5,30 L112.5,30 M99.5,49 L86.5,64 M99.5,49 L112.5,64 " fill="none" filter="url(#f1ft2vwo3ymdjr)" style="stroke:#A80036;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="53" y="82.4951">Receptionist</text><!--MD5=[2f1b394e2924067056fccacd5d16a564]
+link Receptionist to UC3--><path d="M99.5,85.792 C99.5,103.7258 99.5,124.37 99.5,140.1549 " fill="none" id="Receptionist-to-UC3" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="99.5,145.3108,103.5,136.3108,99.5,140.3108,95.5,136.3108,99.5,145.3108" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7284c0533087f83cb86033ecef7dbf42]
+@startuml
+usecase "UC3 - Register Client" as UC3
+actor Receptionist
+
+Receptionist - -> (UC3)
+@enduml
+
+PlantUML version 1.2021.6beta6(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

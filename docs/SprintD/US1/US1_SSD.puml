@@ -1,0 +1,41 @@
+@startuml
+
+autonumber
+actor "Client" as cli
+participant ": System" as sys
+
+activate cli
+
+cli -> sys : requests to view the results of the tests the client has performed
+
+activate sys
+
+loop if the client chooses to consult another test
+
+sys --> cli : show tests performed by the client and asks to choose one to consult the results
+
+deactivate sys
+
+cli -> sys : selects a test
+
+activate sys
+
+sys --> cli : shows the results of the test and the diagnosis report and asks if the client wants to consult another test
+
+deactivate sys
+
+cli -> sys : inserts if he/she wants to continue
+
+activate sys
+
+end
+
+sys --> cli : informs successful exit
+
+deactivate sys
+
+deactivate cli
+
+
+
+@enduml

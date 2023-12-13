@@ -1,0 +1,21 @@
+
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”À÷Ú
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”À÷Ú
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”À÷Ú
+n
+java:S1104"YMake parameterList a static final constant or non-public and provide accessors if needed.(„“­Q
+p
+java:S1104"ZMake typeOfTestList a static final constant or non-public and provide accessors if needed.(æİ‚”
+|
+java:S14886"aImmediately return this expression instead of assigning it to the temporary variable "parameter".(–ä½«øÿÿÿÿ
+w
+java:S1488F"aImmediately return this expression instead of assigning it to the temporary variable "pCategory".(õŸı†
+}
+java:S1488s"bImmediately return this expression instead of assigning it to the temporary variable "typeOfTest".(íş­şÿÿÿÿ
+x
+java:S1488"\Immediately return this expression instead of assigning it to the temporary variable "ncal".(ˆØË“şÿÿÿÿ
+O
+java:S1128	"4Remove this unused import 'com.example2.EMRefValue'.(ô¸ÒËúÿÿÿÿ
+A
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü
+h	java:S1001"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.( É¡üÿÿÿÿ

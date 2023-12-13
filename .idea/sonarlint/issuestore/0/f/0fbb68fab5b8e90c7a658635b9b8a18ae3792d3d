@@ -1,0 +1,24 @@
+
+7
+java:S1643("Use a StringBuilder instead.(×Ú¿ìüÿÿÿÿ
+2
+java:S1643)"Use a StringBuilder instead.(©­­
+J
+java:S1128"4Remove this unused import 'app.domain.model.Client'.(ùÈ‚§
+O
+java:S1128"2Remove this unused import 'javax.imageio.ImageIO'.(‘çÔû8ıˆïä/
+R
+java:S1854$"<Remove this useless assignment to local variable "tempList".(¨º Ì
+R
+java:S1117$"<Rename "tempList" which hides the field declared at line 26.(¨º Ì
+5
+java:S2129%" Remove this "String" constructor(ÊäƒV
+Q
+java:S18540";Remove this useless assignment to local variable "barcode".(ÍÛÒÔ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+V
+java:S1854P";Remove this useless assignment to local variable "tempTin".(Ç¥³ úÿÿÿÿ
+B
+java:S14810",Remove this unused "barcode" local variable.(ÍÛÒÔ
+G
+java:S1481P",Remove this unused "tempTin" local variable.(Ç¥³ úÿÿÿÿ

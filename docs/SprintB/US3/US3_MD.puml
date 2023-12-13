@@ -1,0 +1,39 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+skinparam linetype polyline
+
+
+Class Company{
+
+
+}
+
+Class Client{
+-int cardNumber
+-int nhs
+-int birthDate
+-String sex
+-int TIF
+-int  phoneNumber
+-String email
+-String name
+-int password
+}
+
+Class Recepcionist{
+-int ID
+-String role
+-String nome
+-int phoneNumber
+-String email
+-int SOC
+
+}
+
+Recepcionist "1" -- "1..*" Client : registers >
+Company "1" -- "1..*" Client : has >
+Company "1" -- "1..*" Recepcionist : has >
+
+@enduml

@@ -1,0 +1,40 @@
+@startuml
+
+autonumber
+actor "SpecialistDoctor" as doc
+
+participant ":System" as sys
+
+doc -> sys : asks to show all tests able to get diagnosed
+
+activate sys
+
+sys --> doc : presents all the tests ready to get diagnosed
+
+deactivate sys
+
+doc -> sys : selects one of the tests to diagnose
+
+activate sys
+
+sys --> doc : presents all the information about the test
+
+deactivate sys
+
+doc -> sys : writes a report for that test
+
+activate sys
+
+sys --> doc : confirms the information and asks for confirmation
+
+deactivate sys
+
+doc -> sys : confirms the information
+
+activate sys
+
+sys --> doc : saves the report and sends a successful notification
+
+deactivate sys
+
+@enduml

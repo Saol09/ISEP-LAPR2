@@ -1,0 +1,48 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Laboratory coordinator" as LC
+participant "ImportDataUI" as UI
+participant "ImportDataController" as ctrl
+participant "ImportDataService" as service
+participant "Company" as comp
+participant "TestStore" as store
+participant "ClientStore" as cStore
+
+
+LC -> UI : Asks to import data
+activate LC
+activate UI
+ UI -> LC : Asks the path to the file
+ deactivate UI
+ LC -> UI : Inserts the file path
+ activate UI
+ UI -> ctrl : getFile()
+
+ activate ctrl
+
+ ctrl -> service : importData()
+ activate service
+ service -> comp : tStore = getTestStore()
+ activate comp
+ service -> comp : cStore = getClientStore()
+ deactivate comp
+
+    loop until the end of the file
+    ref over service
+        US17_SD_AddClient
+    end ref
+
+    ref over service
+            US17_SD_AddTest
+        end ref
+    end loop
+ deactivate service
+ deactivate ctrl
+
+ UI -> LC : informs sucess
+ deactivate UI
+
+
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+ class Test{
+ -date
+ }
+class DiagnosisReport{
+-date
+}
+
+
+@enduml

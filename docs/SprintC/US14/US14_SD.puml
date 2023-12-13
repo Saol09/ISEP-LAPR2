@@ -1,0 +1,155 @@
+@startuml
+
+autonumber
+actor "SpecialistDoctor" as doc
+
+participant ":CreateDiagnosisReportUI" as ui
+participant ":CreateDiagnosisReportController" as ctrl
+participant ":Company" as cmp
+participant "testStore: TestStore" as testStore
+participant "rep: DiagnosisReport" as report
+participant "testMapper: TestMapper" as mapper
+participant "t: Tests"
+participant "lTests: List<Tests>"
+participant "lTestsDto: List<TestsDto>"
+
+    activate doc
+
+doc -> ui : asks to show all tests able to get diagnosed
+
+    activate ui
+
+ui -> ctrl : lTestDto = getReadyTests()
+
+    activate ctrl
+
+ctrl -> cmp : tStore = getTestStore()
+
+    activate cmp
+
+    deactivate cmp
+
+ctrl -> testStore : lTests = getReadyTests(state)
+
+    activate testStore
+
+    deactivate testStore
+
+ctrl -> mapper : lTestDto = toDto(lTests)
+
+activate mapper
+
+    deactivate mapper
+
+    deactivate ctrl
+
+ui --> doc : shows all the tests ready to receive a report
+
+    deactivate ui
+
+doc -> ui : selects one of the tests to diagnose
+
+    activate ui
+
+ui -> ctrl : getInfoTest()
+
+    activate ctrl
+
+
+
+ctrl -> testStore : getInfoTest(id)
+
+    activate testStore
+
+    deactivate ctrl
+
+    deactivate testStore
+
+
+ui -> ctrl : getParameters()
+
+    activate ctrl
+
+ctrl -> testStore : getParameters()
+
+    activate testStore
+
+    deactivate ctrl
+
+    deactivate testStore
+
+ui --> doc : shows information about the test and the parameters
+
+    deactivate ui
+
+doc -> ui : writes the diagnosis report for the test
+
+    activate ui
+
+ui -> ctrl : createReport()
+
+    activate ctrl
+
+ctrl -> cmp :  tStore : getTestStore()
+
+    activate cmp
+
+    deactivate cmp
+
+ctrl -> testStore : rep = createReport(report)
+
+    activate testStore
+
+testStore -> report** : rep : create(report)
+
+    deactivate testStore
+
+ctrl -> testStore : validateReport(rep)
+
+    activate testStore
+
+    deactivate testStore
+
+    deactivate ctrl
+
+ui --> doc : shows the information and asks for confirmation
+
+    deactivate ui
+
+doc -> ui : confirms
+
+    activate ui
+
+ui -> ctrl : saveReport()
+
+    activate ctrl
+
+ctrl -> testStore : saveReport(rep)
+
+    deactivate ctrl
+
+    activate testStore
+
+testStore -> testStore : validateReport(rep)
+
+    activate testStore
+
+    deactivate testStore
+
+testStore -> testStore : addReport(rep)
+
+    activate testStore
+
+    deactivate testStore
+
+    deactivate testStore
+
+ui --> doc : sends successful notification
+
+
+
+    deactivate ui
+
+    deactivate doc
+
+@enduml

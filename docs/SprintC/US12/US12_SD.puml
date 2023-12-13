@@ -1,0 +1,39 @@
+@startuml
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ": RecordTestResultUI" as UI
+participant ":RecordTestResultController" as CTRL
+participant "test :Test" as T
+
+loop for each test parameter being analysed
+CCT -> UI : selects test parameter
+activate UI
+UI --> CCT : requests the result value and metric
+deactivate UI
+
+CCT -> UI : types requested data
+activate UI
+
+UI -> CTRL : addTestResult(parameterCode,result,metric)
+activate CTRL
+
+CTRL -> T : addTestResult(parameterCode,result,metric)
+activate T
+
+ref over T
+SD_AddTestResult(parameterCode,result,metric)
+end ref
+
+T --> CTRL : ok
+deactivate T
+
+CTRL --> UI : ok
+deactivate CTRL
+
+UI --> CCT : Informs success of operation
+deactivate UI
+
+end
+@enduml

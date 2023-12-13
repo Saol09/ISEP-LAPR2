@@ -1,0 +1,17 @@
+@startuml
+autonumber
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ": System" as S
+
+CCT -> S : selects test parameter
+activate S
+S --> CCT : requests the result value and metric
+deactivate S
+
+CCT -> S : types requested data
+activate S
+S --> CCT : success
+deactivate S
+
+@enduml

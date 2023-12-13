@@ -1,0 +1,83 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+actor Administrator as Admin
+participant ReportNHSUI as UI
+participant ReportNHSController as CTRL
+participant Company as c
+participant "linearRegression:LinearRegression" as lR
+participant "multilinearRegression:MultilinearRegression" as mLR
+participant "Report2NHS" as rep
+participant "testStore:TestStore" as testS
+participant "clientStore:ClientStore" as testC
+
+
+
+
+activate Admin
+
+Admin -> UI : Administrator chooses the start and end date\n of the regression and chosen  between \n linearRegression and multilienarRegression
+activate UI
+UI --> Admin : Confirmation of the values
+deactivate UI
+
+
+Admin -> UI : Administrator confirms the data
+activate UI
+
+UI -> CTRL : dates confirmed and the regression chosen
+activate CTRL
+
+CTRL -> c : tStore = getTestStore()
+activate c
+deactivate c
+CTRL -> c : cStore = getClientStore()
+activate c
+deactivate c
+CTRL -> testS : positiveTestList=getPositiveTest()
+activate testS
+deactivate testS
+CTRL -> testS : testDiaList=getTestDia()
+activate testS
+deactivate testS
+
+
+alt linearRegression
+CTRL -> lR** : linearRegression(int historicalPoints,String dataIni, String dataFim)
+activate lR
+lR --> CTRL : reportString
+deactivate lR
+CTRL -> rep : writeUsingFileWriter(reportString)
+activate rep
+rep --> CTRL : success
+deactivate rep
+CTRL --> UI : success or failure
+
+
+
+else multilinearRegression
+CTRL -> mLR** : linearRegression(int historicalPoints,String dataIni, String dataFim)
+activate mLR
+mLR -> testC : mediaIdadesList=getMediaIdades(TinNumberList)
+activate testC
+deactivate testC
+mLR --> CTRL : reportString
+deactivate mLR
+CTRL -> rep : writeUsingFileWriter(reportString)
+activate rep
+rep --> CTRL : success
+deactivate rep
+CTRL --> UI : success or failure
+deactivate CTRL
+
+
+end
+
+
+UI --> Admin : Shows the success or failure notification
+deactivate UI
+deactivate Admin
+
+@enduml

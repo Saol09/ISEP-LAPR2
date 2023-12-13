@@ -1,0 +1,28 @@
+@startuml
+autonumber
+actor "Administrator" as A
+
+activate A
+A -> ":System" : requests to register a test type
+activate ":System"
+":System" --> A : requests data (code, description, collecting methods)
+deactivate ":System"
+
+A -> ":System" : inserts the data
+activate ":System"
+":System" --> A : show parameter categories
+deactivate ":System"
+
+A -> ":System" : select parameter category
+activate ":System"
+":System" --> A : shows the data and asks for confirmation
+deactivate ":System"
+
+A -> ":System" : confirms the data
+activate ":System"
+":System" --> A : informs success of operation
+deactivate ":System"
+
+deactivate A
+
+@enduml

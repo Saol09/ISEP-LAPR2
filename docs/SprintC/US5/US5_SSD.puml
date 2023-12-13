@@ -1,0 +1,28 @@
+@startuml
+autonumber
+'hide footbox
+actor "Medical Lab Technician" as MLT
+
+participant ":System" as SYSTEM
+
+MLT -> SYSTEM : Wishes to register a sample
+activate MLT
+activate SYSTEM
+SYSTEM --> MLT : Shows the test list
+deactivate SYSTEM
+
+MLT -> SYSTEM : Selects the Test
+activate SYSTEM
+SYSTEM --> MLT : Askes for the number of samples
+deactivate SYSTEM
+
+MLT -> SYSTEM : Inserts number of samples
+activate SYSTEM
+SYSTEM --> MLT : Saves de images
+deactivate SYSTEM
+
+
+
+deactivate MLT
+
+@enduml

@@ -1,0 +1,65 @@
+Melhorias do Sprint C 
+
+---------------------------------------------------------
+
+--- Paulo ---
+
+Acceptance Criteria: - Em falta, código de barras é único por exemplo.
+
+Depencies: - em vez de US3 era a US4
+
+SSD: - em falta, mostrar informação introduzida e operação executada com sucesso
+
+MD: - ligação teste para sample, não faz grande sentido, pq não é obrigatório ter uma, ent no sample seria * em vez de 1...*
+    - ligação da companhia para testes, pq a companhia possuí testes
+
+SD: - o id como parâmetro do getTestById()
+    - haver uma ligação do controller para a company por causa da api
+    - falta associação do barcode ao sample
+    - a criação da lista de sample não está criada
+
+CD: - ligação da ui para a controller está errada, pq a ui não pussui a controller
+    - texto nas ligações
+
+--- Diogo ---
+
+SSD: - falta caixa de ativação no ator
+     - faltam muitas ligações (o processo se inicia-se pelo cód de barras, por exemplo)
+
+MD: - em falta o company, que é onde os testes são guardados
+    - em falta os samples
+
+SD: - a caixa de ativação no ator
+    - não se sabe de onde surge o test, pq falta a companhia
+    - não é o teste, que através do cód do parâmetro que me vai dar os parâmetros
+    - algumas imprecisões
+
+CD: - falta a company
+
+--- Sérgio ----
+
+SSD: - Falta a caixa de ativação
+
+MD: - mostrar toda a informação do teste(tem de ver o resultados)
+    - onde está o teste?
+    - buscar a classe testParameterResult do diogo
+    - buscar valores de referencia ao diogo
+
+SD: - test  = getInfoTest(id)
+    - diagnosisReport fica associado ao test
+
+CD: - falta os teste falta os results
+    - a testStore tem um lista de teste 
+
+--- Tiago ---
+
+SSD: - o cliente referiu que o lab coordinator, definiu que era possível validar um teste ou um conjunto de testes.
+
+MD: falta o modelo de domínio
+
+SD: está muito incompleto
+
+
+
+
+	

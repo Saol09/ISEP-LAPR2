@@ -1,0 +1,41 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide methods
+
+
+class Company{
+-designation
+}
+
+class Client{
+-name
+-citizenCardNumber
+-nhsNumber
+-tinNumber
+-birthDate
+-sex
+-phoneNumber
+-email
+-user
+}
+
+class Test{
+-code
+-nhsCode
+-createdAt
+-state
+-report
+-testParameter
+-clinicalAnalysisLab
+-typeOfTest
+-testParameterResult
+-clientTinNum
+-sampleList
+}
+
+Company "1"-right-"*" Client: > provides services
+Company "1" -- "1...*" Test: > has/does
+Client "1" -- "1...*" Test: > consults
+
+@enduml

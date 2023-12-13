@@ -1,0 +1,55 @@
+
+@startuml
+
+autonumber
+actor "Administrator" as ADMIN
+
+participant ":System" as SYSTEM
+
+activate ADMIN
+activate SYSTEM
+
+ADMIN -> SYSTEM : starts to register a employee
+
+SYSTEM --> ADMIN : requests the data for the employee (employee ID, organization role, name, address, phone number, email, SOC code)
+
+deactivate SYSTEM
+
+alt if organization role = Specialist Doctor
+
+ADMIN -> SYSTEM : inserts the requested data
+
+activate SYSTEM
+
+SYSTEM --> ADMIN : presents introduced information and asks for the Doctor Index Number
+
+deactivate SYSTEM
+
+ADMIN -> SYSTEM : inserts the requested data
+
+activate SYSTEM
+deactivate SYSTEM
+
+else organization role != Specialist Doctor
+
+ADMIN -> SYSTEM : inserts the requested data
+
+activate SYSTEM
+
+end
+
+activate SYSTEM
+
+SYSTEM --> ADMIN : validates the data and asks for confirmation
+
+deactivate SYSTEM
+
+ADMIN -> SYSTEM : confirms 
+
+activate SYSTEM
+
+SYSTEM --> ADMIN : saves the data of the employee and sends a successful notification
+
+deactivate SYSTEM
+
+@enduml

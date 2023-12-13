@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class ImportDataUI{
+
+}
+class ImportDataController{
++getFile()
+}
+class ImportDataService{
+
++getFileFromPath()
++validateTypeofTest()
++validateLab()
++getTypeOfTest()
++getTestResults()
++getListParameters()
++setTestIgGan(igGan)
++save()
+}
+class Company {
+-desingation
++getTestStore()
++getClientStore()
++getListParameters()
++getTypeOfTest()
+}
+
+class TestStore{
+-test
++newTest()
++setTestIgGan()
++addTestResult()
++save()
+}
+
+class ClientStore{
+-Client
++newClient
++save
+}
+class TypeofTest{
+-ParameterCategory
+}
+class Test {
+}
+ImportDataUI ..> ImportDataController
+ImportDataController ..> ImportDataService
+ImportDataService ..> TestStore
+ImportDataService ..> Company
+ImportDataService ..> ClientStore
+
+Company "1"-->"1" TestStore : contains
+Company "10"-->"1" ClientStore : contains
+
+TestStore "*"-->"1" Test : Stores
+Test "1" --> "1" TypeofTest : is of
+@enduml

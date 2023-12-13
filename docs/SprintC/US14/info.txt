@@ -1,0 +1,19 @@
+Q: What characterizes a diagnosis? What it needs to have in it to be a valid diagnosis?
+A: I already answered this question during Sprint B. Please be attentive to my answers and record the information.
+
+The report contains the diagnosis. The report is free text and should have no more than 400 words.
+
+---------------------------------------------
+
+Q: Regarding the tests that the Specialist Doctor can write a report about. Should the SD chose from a list of tests? and Should him only receive a list of test that have completed all the previous steps?
+A: The system shows all tests ready (that have completed all the previous steps) to make the diagnosys and the Specialist Doctor selects one test. Then, the Specialist Doctor writes the report for the selected test.
+
+--------------------------------------------
+
+Q: If the report is not validated by the Lab Coordinator, can it be due to the report and diagnosis or are all of the reports and diagnosis written valid?
+A: I already answered this question.
+
+--------------------------------------------
+
+Q: Can the Specialist Doctor edit a report once it has already been written? If yes, in what occasion should he be able to edit? Can he edit after the Laboratory Coordinator has already approved the report?
+A: No. No.

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="415px" preserveAspectRatio="none" style="width:1928px;height:415px;" version="1.1" viewBox="0 0 1928 415" width="1928.75px" zoomAndPan="magnify"><defs><filter height="300%" id="f1nk3c762q0d66" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.5"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="5.0" dy="5.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[62bdb6435f21fcc181756dc3392fb99a]
+class RecordTestResultUI--><rect codeLine="6" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="60" id="RecordTestResultUI" style="stroke:#A80036;stroke-width:1.875;" width="180" x="8.75" y="51.875"/><ellipse cx="27.5" cy="71.875" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M30,67.5 Q30.2539,66.875 30.5469,66.5625 Q30.8398,66.25 31.1719,66.25 Q31.7578,66.25 32.1289,66.6016 Q32.5,66.9531 32.5,67.7734 L32.5,69.7266 Q32.5,70.5469 32.1484,70.8984 Q31.7969,71.25 31.25,71.25 Q30.7617,71.25 30.4492,71.0352 Q30.1367,70.8203 30,70.2539 Q29.9414,69.8633 29.7266,69.6484 Q29.3359,69.2383 28.6328,69.0039 Q27.9297,68.75 27.2266,68.75 Q26.3477,68.75 25.6055,69.1016 Q24.8828,69.4531 24.3164,70.2344 Q23.75,71.0156 23.75,72.0898 L23.75,73.2422 Q23.75,74.5313 24.8047,75.3906 Q25.8594,76.25 27.7344,76.25 Q28.8477,76.25 29.6289,75.9961 Q30.0781,75.8594 30.5859,75.4102 Q30.918,75.1563 31.0938,75.0781 Q31.2695,75 31.4844,75 Q31.8945,75 32.1875,75.332 Q32.5,75.6445 32.5,76.0938 Q32.5,76.5234 32.0703,77.0313 Q31.4453,77.7734 30.4492,78.1836 Q29.1406,78.75 27.5391,78.75 Q25.6641,78.75 24.1602,78.0078 Q22.9492,77.4219 22.0898,76.1523 Q21.25,74.8828 21.25,73.3789 L21.25,72.0117 Q21.25,70.4492 21.9922,69.082 Q22.7539,67.7148 24.0625,66.9922 Q25.3906,66.25 26.875,66.25 Q27.7734,66.25 28.5547,66.5625 Q29.3359,66.875 30,67.5 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="140" x="45" y="78.0127">RecordTestResultUI</text><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="187.5" y1="91.875" y2="91.875"/><line style="stroke:#A80036;stroke-width:1.875;" x1="10" x2="187.5" y1="101.875" y2="101.875"/><!--MD5=[ef30bcd9a8851b2fb15fb683dae6a22f]
+class RecordTestResultController--><rect codeLine="9" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="77.2949" id="RecordTestResultController" style="stroke:#A80036;stroke-width:1.875;" width="288.75" x="265" y="43.125"/><ellipse cx="309.0625" cy="63.125" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M311.5625,58.75 Q311.8164,58.125 312.1094,57.8125 Q312.4023,57.5 312.7344,57.5 Q313.3203,57.5 313.6914,57.8516 Q314.0625,58.2031 314.0625,59.0234 L314.0625,60.9766 Q314.0625,61.7969 313.7109,62.1484 Q313.3594,62.5 312.8125,62.5 Q312.3242,62.5 312.0117,62.2852 Q311.6992,62.0703 311.5625,61.5039 Q311.5039,61.1133 311.2891,60.8984 Q310.8984,60.4883 310.1953,60.2539 Q309.4922,60 308.7891,60 Q307.9102,60 307.168,60.3516 Q306.4453,60.7031 305.8789,61.4844 Q305.3125,62.2656 305.3125,63.3398 L305.3125,64.4922 Q305.3125,65.7813 306.3672,66.6406 Q307.4219,67.5 309.2969,67.5 Q310.4102,67.5 311.1914,67.2461 Q311.6406,67.1094 312.1484,66.6602 Q312.4805,66.4063 312.6563,66.3281 Q312.832,66.25 313.0469,66.25 Q313.457,66.25 313.75,66.582 Q314.0625,66.8945 314.0625,67.3438 Q314.0625,67.7734 313.6328,68.2813 Q313.0078,69.0234 312.0117,69.4336 Q310.7031,70 309.1016,70 Q307.2266,70 305.7227,69.2578 Q304.5117,68.6719 303.6523,67.4023 Q302.8125,66.1328 302.8125,64.6289 L302.8125,63.2617 Q302.8125,61.6992 303.5547,60.332 Q304.3164,58.9648 305.625,58.2422 Q306.9531,57.5 308.4375,57.5 Q309.3359,57.5 310.1172,57.8125 Q310.8984,58.125 311.5625,58.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="192.5" x="332.1875" y="69.2627">RecordTestResultController</text><line style="stroke:#A80036;stroke-width:1.875;" x1="266.25" x2="552.5" y1="83.125" y2="83.125"/><line style="stroke:#A80036;stroke-width:1.875;" x1="266.25" x2="552.5" y1="93.125" y2="93.125"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="273.75" x="272.5" y="112.3987">+addTestResult(parameterCode,result,metric)</text><!--MD5=[df38be88ccee13e832d6fafd6288a4ca]
+class Test--><rect codeLine="13" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="146.4746" id="Test" style="stroke:#A80036;stroke-width:1.875;" width="288.75" x="630" y="8.75"/><ellipse cx="754.0625" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M756.5625,24.375 Q756.8164,23.75 757.1094,23.4375 Q757.4023,23.125 757.7344,23.125 Q758.3203,23.125 758.6914,23.4766 Q759.0625,23.8281 759.0625,24.6484 L759.0625,26.6016 Q759.0625,27.4219 758.7109,27.7734 Q758.3594,28.125 757.8125,28.125 Q757.3242,28.125 757.0117,27.9102 Q756.6992,27.6953 756.5625,27.1289 Q756.5039,26.7383 756.2891,26.5234 Q755.8984,26.1133 755.1953,25.8789 Q754.4922,25.625 753.7891,25.625 Q752.9102,25.625 752.168,25.9766 Q751.4453,26.3281 750.8789,27.1094 Q750.3125,27.8906 750.3125,28.9648 L750.3125,30.1172 Q750.3125,31.4063 751.3672,32.2656 Q752.4219,33.125 754.2969,33.125 Q755.4102,33.125 756.1914,32.8711 Q756.6406,32.7344 757.1484,32.2852 Q757.4805,32.0313 757.6563,31.9531 Q757.832,31.875 758.0469,31.875 Q758.457,31.875 758.75,32.207 Q759.0625,32.5195 759.0625,32.9688 Q759.0625,33.3984 758.6328,33.9063 Q758.0078,34.6484 757.0117,35.0586 Q755.7031,35.625 754.1016,35.625 Q752.2266,35.625 750.7227,34.8828 Q749.5117,34.2969 748.6523,33.0273 Q747.8125,31.7578 747.8125,30.2539 L747.8125,28.8867 Q747.8125,27.3242 748.5547,25.957 Q749.3164,24.5898 750.625,23.8672 Q751.9531,23.125 753.4375,23.125 Q754.3359,23.125 755.1172,23.4375 Q755.8984,23.75 756.5625,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="30" x="779.6875" y="34.8877">Test</text><line style="stroke:#A80036;stroke-width:1.875;" x1="631.25" x2="917.5" y1="48.75" y2="48.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="637.5" y="68.0237">-code</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="60" x="637.5" y="85.3186">-NhsCode</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="65" x="637.5" y="102.6135">-createdAt</text><line style="stroke:#A80036;stroke-width:1.875;" x1="631.25" x2="917.5" y1="110.6348" y2="110.6348"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="273.75" x="637.5" y="129.9084">+addTestResult(parameterCode,result,metric)</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="236.25" x="637.5" y="147.2034">+getTestParameterFor(parameterCode)</text><!--MD5=[f69a48f7b38bde3533dca6607cc4e94a]
+class TypeOfTest--><rect codeLine="21" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="146.4746" id="TypeOfTest" style="stroke:#A80036;stroke-width:1.875;" width="142.5" x="1132.5" y="8.75"/><ellipse cx="1162.5" cy="28.75" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1165,24.375 Q1165.2539,23.75 1165.5469,23.4375 Q1165.8398,23.125 1166.1719,23.125 Q1166.7578,23.125 1167.1289,23.4766 Q1167.5,23.8281 1167.5,24.6484 L1167.5,26.6016 Q1167.5,27.4219 1167.1484,27.7734 Q1166.7969,28.125 1166.25,28.125 Q1165.7617,28.125 1165.4492,27.9102 Q1165.1367,27.6953 1165,27.1289 Q1164.9414,26.7383 1164.7266,26.5234 Q1164.3359,26.1133 1163.6328,25.8789 Q1162.9297,25.625 1162.2266,25.625 Q1161.3477,25.625 1160.6055,25.9766 Q1159.8828,26.3281 1159.3164,27.1094 Q1158.75,27.8906 1158.75,28.9648 L1158.75,30.1172 Q1158.75,31.4063 1159.8047,32.2656 Q1160.8594,33.125 1162.7344,33.125 Q1163.8477,33.125 1164.6289,32.8711 Q1165.0781,32.7344 1165.5859,32.2852 Q1165.918,32.0313 1166.0938,31.9531 Q1166.2695,31.875 1166.4844,31.875 Q1166.8945,31.875 1167.1875,32.207 Q1167.5,32.5195 1167.5,32.9688 Q1167.5,33.3984 1167.0703,33.9063 Q1166.4453,34.6484 1165.4492,35.0586 Q1164.1406,35.625 1162.5391,35.625 Q1160.6641,35.625 1159.1602,34.8828 Q1157.9492,34.2969 1157.0898,33.0273 Q1156.25,31.7578 1156.25,30.2539 L1156.25,28.8867 Q1156.25,27.3242 1156.9922,25.957 Q1157.7539,24.5898 1159.0625,23.8672 Q1160.3906,23.125 1161.875,23.125 Q1162.7734,23.125 1163.5547,23.4375 Q1164.3359,23.75 1165,24.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="77.5" x="1182.5" y="34.8877">TypeOfTest</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1133.75" x2="1273.75" y1="48.75" y2="48.75"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="35" x="1140" y="68.0237">-code</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="71.25" x="1140" y="85.3186">-description</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="112.5" x="1140" y="102.6135">-collectingMethods</text><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="86.25" x="1140" y="119.9084">-parameterCat</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1133.75" x2="1273.75" y1="127.9297" y2="127.9297"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="127.5" x="1140" y="147.2034">+getExternalModule()</text><!--MD5=[8f188b89eff49accb0f38c057b38a9f2]
+class ExternalModule--><rect codeLine="29" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="87.5293" id="ExternalModule" style="stroke:#A80036;stroke-width:1.875;" width="355" x="1556.25" y="194.375"/><ellipse cx="1675.3125" cy="219.4922" fill="#B4A7E5" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1676.5625,215.7422 L1676.5625,223.2422 L1679.0625,223.2422 L1679.668,223.2422 L1680.3125,224.0234 L1680.3125,224.4922 L1680.3125,224.9609 L1679.668,225.7422 L1679.0625,225.7422 L1671.5625,225.7422 L1670.957,225.7422 L1670.3125,224.9609 L1670.3125,224.4922 L1670.3125,224.0234 L1670.957,223.2422 L1671.5625,223.2422 L1674.0625,223.2422 L1674.0625,215.7422 L1671.5625,215.7422 L1670.957,215.7422 L1670.3125,214.9609 L1670.3125,214.4922 L1670.3125,214.0234 L1670.957,213.2422 L1671.5625,213.2422 L1679.0625,213.2422 L1679.668,213.2422 L1680.3125,214.0234 L1680.3125,214.4922 L1680.3125,214.9609 L1679.668,215.7422 L1679.0625,215.7422 L1676.5625,215.7422 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="76.25" x="1715.9375" y="216.1963">«interface»</text><text fill="#000000" font-family="sans-serif" font-size="15" font-style="italic" lengthAdjust="spacing" textLength="106.25" x="1700.9375" y="235.0635">ExternalModule</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1557.5" x2="1910" y1="244.6094" y2="244.6094"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1557.5" x2="1910" y1="254.6094" y2="254.6094"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="340" x="1563.75" y="273.8831">+ReferenceValue getReferenceValue(Parameter param)</text><!--MD5=[0f11f0f60ee567100a99d4d7b98e8e2f]
+class ExternalModuleAdapter1--><rect codeLine="33" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="77.2949" id="ExternalModuleAdapter1" style="stroke:#A80036;stroke-width:1.875;" width="355" x="1026.25" y="199.375"/><ellipse cx="1115.3125" cy="219.375" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1117.8125,215 Q1118.0664,214.375 1118.3594,214.0625 Q1118.6523,213.75 1118.9844,213.75 Q1119.5703,213.75 1119.9414,214.1016 Q1120.3125,214.4531 1120.3125,215.2734 L1120.3125,217.2266 Q1120.3125,218.0469 1119.9609,218.3984 Q1119.6094,218.75 1119.0625,218.75 Q1118.5742,218.75 1118.2617,218.5352 Q1117.9492,218.3203 1117.8125,217.7539 Q1117.7539,217.3633 1117.5391,217.1484 Q1117.1484,216.7383 1116.4453,216.5039 Q1115.7422,216.25 1115.0391,216.25 Q1114.1602,216.25 1113.418,216.6016 Q1112.6953,216.9531 1112.1289,217.7344 Q1111.5625,218.5156 1111.5625,219.5898 L1111.5625,220.7422 Q1111.5625,222.0313 1112.6172,222.8906 Q1113.6719,223.75 1115.5469,223.75 Q1116.6602,223.75 1117.4414,223.4961 Q1117.8906,223.3594 1118.3984,222.9102 Q1118.7305,222.6563 1118.9063,222.5781 Q1119.082,222.5 1119.2969,222.5 Q1119.707,222.5 1120,222.832 Q1120.3125,223.1445 1120.3125,223.5938 Q1120.3125,224.0234 1119.8828,224.5313 Q1119.2578,225.2734 1118.2617,225.6836 Q1116.9531,226.25 1115.3516,226.25 Q1113.4766,226.25 1111.9727,225.5078 Q1110.7617,224.9219 1109.9023,223.6523 Q1109.0625,222.3828 1109.0625,220.8789 L1109.0625,219.5117 Q1109.0625,217.9492 1109.8047,216.582 Q1110.5664,215.2148 1111.875,214.4922 Q1113.2031,213.75 1114.6875,213.75 Q1115.5859,213.75 1116.3672,214.0625 Q1117.1484,214.375 1117.8125,215 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="166.25" x="1140.9375" y="225.5127">ExternalModuleAdapter1</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1027.5" x2="1380" y1="239.375" y2="239.375"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1027.5" x2="1380" y1="249.375" y2="249.375"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="340" x="1033.75" y="268.6487">+ReferenceValue getReferenceValue(Parameter param)</text><!--MD5=[2191233c03d1d98f88ead7aa4dd76da0]
+class ExternalModuleAdapter2--><rect codeLine="37" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="77.2949" id="ExternalModuleAdapter2" style="stroke:#A80036;stroke-width:1.875;" width="355" x="1026.25" y="320.625"/><ellipse cx="1115.3125" cy="340.625" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M1117.8125,336.25 Q1118.0664,335.625 1118.3594,335.3125 Q1118.6523,335 1118.9844,335 Q1119.5703,335 1119.9414,335.3516 Q1120.3125,335.7031 1120.3125,336.5234 L1120.3125,338.4766 Q1120.3125,339.2969 1119.9609,339.6484 Q1119.6094,340 1119.0625,340 Q1118.5742,340 1118.2617,339.7852 Q1117.9492,339.5703 1117.8125,339.0039 Q1117.7539,338.6133 1117.5391,338.3984 Q1117.1484,337.9883 1116.4453,337.7539 Q1115.7422,337.5 1115.0391,337.5 Q1114.1602,337.5 1113.418,337.8516 Q1112.6953,338.2031 1112.1289,338.9844 Q1111.5625,339.7656 1111.5625,340.8398 L1111.5625,341.9922 Q1111.5625,343.2813 1112.6172,344.1406 Q1113.6719,345 1115.5469,345 Q1116.6602,345 1117.4414,344.7461 Q1117.8906,344.6094 1118.3984,344.1602 Q1118.7305,343.9063 1118.9063,343.8281 Q1119.082,343.75 1119.2969,343.75 Q1119.707,343.75 1120,344.082 Q1120.3125,344.3945 1120.3125,344.8438 Q1120.3125,345.2734 1119.8828,345.7813 Q1119.2578,346.5234 1118.2617,346.9336 Q1116.9531,347.5 1115.3516,347.5 Q1113.4766,347.5 1111.9727,346.7578 Q1110.7617,346.1719 1109.9023,344.9023 Q1109.0625,343.6328 1109.0625,342.1289 L1109.0625,340.7617 Q1109.0625,339.1992 1109.8047,337.832 Q1110.5664,336.4648 1111.875,335.7422 Q1113.2031,335 1114.6875,335 Q1115.5859,335 1116.3672,335.3125 Q1117.1484,335.625 1117.8125,336.25 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="166.25" x="1140.9375" y="346.7627">ExternalModuleAdapter2</text><line style="stroke:#A80036;stroke-width:1.875;" x1="1027.5" x2="1380" y1="360.625" y2="360.625"/><line style="stroke:#A80036;stroke-width:1.875;" x1="1027.5" x2="1380" y1="370.625" y2="370.625"/><text fill="#000000" font-family="sans-serif" font-size="13.75" lengthAdjust="spacing" textLength="340" x="1033.75" y="389.8987">+ReferenceValue getReferenceValue(Parameter param)</text><!--MD5=[c3dc963db2d4aeb80ad846b1858c2231]
+class BloodReferenceValues1AP--><rect codeLine="41" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="60" id="BloodReferenceValues1AP" style="stroke:#A80036;stroke-width:1.875;" width="226.25" x="661.25" y="208.125"/><ellipse cx="680" cy="228.125" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M682.5,223.75 Q682.7539,223.125 683.0469,222.8125 Q683.3398,222.5 683.6719,222.5 Q684.2578,222.5 684.6289,222.8516 Q685,223.2031 685,224.0234 L685,225.9766 Q685,226.7969 684.6484,227.1484 Q684.2969,227.5 683.75,227.5 Q683.2617,227.5 682.9492,227.2852 Q682.6367,227.0703 682.5,226.5039 Q682.4414,226.1133 682.2266,225.8984 Q681.8359,225.4883 681.1328,225.2539 Q680.4297,225 679.7266,225 Q678.8477,225 678.1055,225.3516 Q677.3828,225.7031 676.8164,226.4844 Q676.25,227.2656 676.25,228.3398 L676.25,229.4922 Q676.25,230.7813 677.3047,231.6406 Q678.3594,232.5 680.2344,232.5 Q681.3477,232.5 682.1289,232.2461 Q682.5781,232.1094 683.0859,231.6602 Q683.418,231.4063 683.5938,231.3281 Q683.7695,231.25 683.9844,231.25 Q684.3945,231.25 684.6875,231.582 Q685,231.8945 685,232.3438 Q685,232.7734 684.5703,233.2813 Q683.9453,234.0234 682.9492,234.4336 Q681.6406,235 680.0391,235 Q678.1641,235 676.6602,234.2578 Q675.4492,233.6719 674.5898,232.4023 Q673.75,231.1328 673.75,229.6289 L673.75,228.2617 Q673.75,226.6992 674.4922,225.332 Q675.2539,223.9648 676.5625,223.2422 Q677.8906,222.5 679.375,222.5 Q680.2734,222.5 681.0547,222.8125 Q681.8359,223.125 682.5,223.75 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="186.25" x="697.5" y="234.2627">BloodReferenceValues1AP</text><line style="stroke:#A80036;stroke-width:1.875;" x1="662.5" x2="886.25" y1="248.125" y2="248.125"/><line style="stroke:#A80036;stroke-width:1.875;" x1="662.5" x2="886.25" y1="258.125" y2="258.125"/><!--MD5=[5c34e247bdc718c2aaa7fe06d704a57f]
+class CovidReferenceValues1API--><rect codeLine="44" fill="#FEFECE" filter="url(#f1nk3c762q0d66)" height="60" id="CovidReferenceValues1API" style="stroke:#A80036;stroke-width:1.875;" width="228.75" x="660" y="329.375"/><ellipse cx="678.75" cy="349.375" fill="#ADD1B2" rx="13.75" ry="13.75" style="stroke:#A80036;stroke-width:1.25;"/><path d="M681.25,345 Q681.5039,344.375 681.7969,344.0625 Q682.0898,343.75 682.4219,343.75 Q683.0078,343.75 683.3789,344.1016 Q683.75,344.4531 683.75,345.2734 L683.75,347.2266 Q683.75,348.0469 683.3984,348.3984 Q683.0469,348.75 682.5,348.75 Q682.0117,348.75 681.6992,348.5352 Q681.3867,348.3203 681.25,347.7539 Q681.1914,347.3633 680.9766,347.1484 Q680.5859,346.7383 679.8828,346.5039 Q679.1797,346.25 678.4766,346.25 Q677.5977,346.25 676.8555,346.6016 Q676.1328,346.9531 675.5664,347.7344 Q675,348.5156 675,349.5898 L675,350.7422 Q675,352.0313 676.0547,352.8906 Q677.1094,353.75 678.9844,353.75 Q680.0977,353.75 680.8789,353.4961 Q681.3281,353.3594 681.8359,352.9102 Q682.168,352.6563 682.3438,352.5781 Q682.5195,352.5 682.7344,352.5 Q683.1445,352.5 683.4375,352.832 Q683.75,353.1445 683.75,353.5938 Q683.75,354.0234 683.3203,354.5313 Q682.6953,355.2734 681.6992,355.6836 Q680.3906,356.25 678.7891,356.25 Q676.9141,356.25 675.4102,355.5078 Q674.1992,354.9219 673.3398,353.6523 Q672.5,352.3828 672.5,350.8789 L672.5,349.5117 Q672.5,347.9492 673.2422,346.582 Q674.0039,345.2148 675.3125,344.4922 Q676.6406,343.75 678.125,343.75 Q679.0234,343.75 679.8047,344.0625 Q680.5859,344.375 681.25,345 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="15" lengthAdjust="spacing" textLength="188.75" x="696.25" y="355.5127">CovidReferenceValues1API</text><line style="stroke:#A80036;stroke-width:1.875;" x1="661.25" x2="887.5" y1="369.375" y2="369.375"/><line style="stroke:#A80036;stroke-width:1.875;" x1="661.25" x2="887.5" y1="379.375" y2="379.375"/><!--MD5=[e0fe53a4cfb5eba193304877d6f3c961]
+link RecordTestResultUI to RecordTestResultController--><path codeLine="48" d="M189.125,81.875 C210.725,81.875 234.425,81.875 258,81.875 " fill="none" id="RecordTestResultUI-to-RecordTestResultController" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="264.6375,81.875,253.3875,76.875,258.3875,81.875,253.3875,86.875,264.6375,81.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[f4d8d40e61e78bc4f8ae97bf8db7bc12]
+link RecordTestResultController to Test--><path codeLine="49" d="M553.9,81.875 C576.6875,81.875 600.3125,81.875 623.2625,81.875 " fill="none" id="RecordTestResultController-to-Test" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="#A80036" points="629.7125,81.875,618.4625,76.875,623.4625,81.875,618.4625,86.875,629.7125,81.875" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[14ee0e434cef03b3d48ccfb011c195a6]
+link Test to TypeOfTest--><path codeLine="50" d="M918.95,81.875 C987.9875,81.875 1068.025,81.875 1125.4375,81.875 " fill="none" id="Test-to-TypeOfTest" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1131.9625,81.875,1120.7125,76.875,1125.7125,81.875,1120.7125,86.875,1131.9625,81.875" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="30" x="957.5" y="77.4939">is of</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="928.8736" y="99.423">*</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1113.9302" y="99.9757">1</text><!--MD5=[b3c4bc4a8394bdf9a19e71dc880ccc83]
+link TypeOfTest to ExternalModule--><path codeLine="51" d="M1275.05,102.625 C1351.975,125.4125 1477.8875,162.7 1578.15,192.4125 " fill="none" id="TypeOfTest-to-ExternalModule" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="1584.725,194.35,1575.3468,186.3743,1578.7298,192.5836,1572.5205,195.9666,1584.725,194.35" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="97.5" x="1420" y="142.4939">makes use of</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="6.25" x="1285.0509" y="123.6404">*</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1545.7744" y="180.6723">1</text><!--MD5=[4583d935403064ae9badefc9a5fb28e7]
+link ExternalModuleAdapter1 to ExternalModule--><path codeLine="52" d="M1381.3875,238.125 C1429.3125,238.125 1481.5875,238.125 1530.8,238.125 " fill="none" id="ExternalModuleAdapter1-to-ExternalModule" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1530.8375,229.375,1555.8375,238.125,1530.8375,246.875,1530.8375,229.375" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[96b97b575a021f78c1d69f4902851f2b]
+link ExternalModuleAdapter2 to ExternalModule--><path codeLine="53" d="M1373.7125,320.6 C1423.9375,309.05 1479.475,296.2875 1531.5375,284.3125 " fill="none" id="ExternalModuleAdapter2-to-ExternalModule" style="stroke:#A80036;stroke-width:1.25;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1529.65,275.775,1555.975,278.7,1533.575,292.825,1529.65,275.775" style="stroke:#A80036;stroke-width:1.25;"/><!--MD5=[f7e3a37cf9d1af0ce15a68418ae0b87a]
+reverse link BloodReferenceValues1AP to ExternalModuleAdapter1--><path codeLine="54" d="M894.2625,238.125 C935,238.125 981.525,238.125 1025.8625,238.125 " fill="none" id="BloodReferenceValues1AP-backto-ExternalModuleAdapter1" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="887.7875,238.125,899.0375,243.125,894.0375,238.125,899.0375,233.125,887.7875,238.125" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="897.5418" y="255.8402">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1007.7146" y="255.5261">1</text><!--MD5=[18336c6a6f2a0f943883f29597a25ae4]
+reverse link CovidReferenceValues1API to ExternalModuleAdapter2--><path codeLine="55" d="M895.35,359.375 C935.825,359.375 981.925,359.375 1025.8625,359.375 " fill="none" id="CovidReferenceValues1API-backto-ExternalModuleAdapter2" style="stroke:#A80036;stroke-width:1.25;"/><polygon fill="#A80036" points="888.9,359.375,900.15,364.375,895.15,359.375,900.15,354.375,888.9,359.375" style="stroke:#A80036;stroke-width:1.25;"/><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="898.7464" y="377.0902">1</text><text fill="#000000" font-family="sans-serif" font-size="16.25" lengthAdjust="spacing" textLength="8.75" x="1007.7146" y="376.7761">1</text><!--MD5=[68c9310533af15d5eccb453c8b250577]
+@startuml
+'https://plantuml.com/class-diagram
+
+skinparam classAttributeIconSize 0
+left to right direction
+
+class RecordTestResultUI{
+}
+
+class RecordTestResultController{
++ addTestResult(parameterCode,result,metric)
+}
+
+class Test{
+- code
+- NhsCode
+- createdAt
++ addTestResult(parameterCode,result,metric)
++ getTestParameterFor(parameterCode)
+}
+
+class TypeOfTest{
+- code
+- description
+- collectingMethods
+- parameterCat
++ getExternalModule()
+}
+
+interface ExternalModule <<interface>> {
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+class ExternalModuleAdapter1{
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+class ExternalModuleAdapter2{
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+class BloodReferenceValues1AP{
+}
+
+class CovidReferenceValues1API{
+}
+
+
+RecordTestResultUI ..> RecordTestResultController
+RecordTestResultController ..> Test
+Test "*" - -> "1" TypeOfTest : is of
+TypeOfTest "*" - -> "1" ExternalModule : makes use of
+ExternalModuleAdapter1 ..|> ExternalModule
+ExternalModuleAdapter2 ..|> ExternalModule
+BloodReferenceValues1AP "1" <- - "1" ExternalModuleAdapter1
+CovidReferenceValues1API "1" <- - "1" ExternalModuleAdapter2
+
+@enduml
+
+@startuml
+
+skinparam classAttributeIconSize 0
+left to right direction
+
+class RecordTestResultUI{
+}
+
+class RecordTestResultController{
++ addTestResult(parameterCode,result,metric)
+}
+
+class Test{
+- code
+- NhsCode
+- createdAt
++ addTestResult(parameterCode,result,metric)
++ getTestParameterFor(parameterCode)
+}
+
+class TypeOfTest{
+- code
+- description
+- collectingMethods
+- parameterCat
++ getExternalModule()
+}
+
+interface ExternalModule <<interface>> {
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+class ExternalModuleAdapter1{
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+class ExternalModuleAdapter2{
++ ReferenceValue getReferenceValue(Parameter param)
+}
+
+class BloodReferenceValues1AP{
+}
+
+class CovidReferenceValues1API{
+}
+
+
+RecordTestResultUI ..> RecordTestResultController
+RecordTestResultController ..> Test
+Test "*" - -> "1" TypeOfTest : is of
+TypeOfTest "*" - -> "1" ExternalModule : makes use of
+ExternalModuleAdapter1 ..|> ExternalModule
+ExternalModuleAdapter2 ..|> ExternalModule
+BloodReferenceValues1AP "1" <- - "1" ExternalModuleAdapter1
+CovidReferenceValues1API "1" <- - "1" ExternalModuleAdapter2
+
+@enduml
+
+PlantUML version 1.2021.5(Sun Apr 25 12:20:28 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

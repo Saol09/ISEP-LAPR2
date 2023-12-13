@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/class-diagram
+skinparam classAttributeIconSize 0
+
+class RegisterClientUI
+{
+}
+
+class RegisterClientController
+{
+    +newClient(cardNumber, nhs, birthDate, sex, TIF, phoneNumber, email, name, password, address)
+    +registerClient()
+}
+
+class Company
+{
+-designation
+
++createClient(cardNumber, nhs, birthDate, sex, TIF, phoneNumber, email, name, password, address)
++validateClient(client)
++registerClient(client)
+-addClient(client)
+}
+
+class Client
+{
+-cardNumber
+-nhs
+-birthDate
+-sex
+-TIF
+-phoneNumber
+-email
+-name
+-password
+-address
+
++Client(cardNumber, nhs, birthDate, sex, TIF, phoneNumber, email, name, password, address)
+}
+
+class ClientStore{
++newClient(name, citizenCardNumber, tinNumber, birthDate, sex)
++validateClient(ct)
++saveClient(ct)
+-addClient(ct)
+}
+
+RegisterClientUI ..> RegisterClientController
+RegisterClientController ..> Company
+Company"1" -> "1"ClientStore : uses
+ClientStore"1" ->"*" Client : store
+Company ..> Client
+RegisterClientController ..> Client
+@enduml

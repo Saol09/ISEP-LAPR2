@@ -1,0 +1,81 @@
+@startuml
+autonumber
+actor "Medical Lab technician" as MLT
+
+participant ":CreateSampleTestUI" as UI
+participant ":CreateSampleTestController" AS CTRL
+participant ":Company" as CMP
+participant "sample : Sample" as SPL
+participant ":TestStore" as TSTORE
+participant ":BarcodeAPI" as BCAPI
+participant ":Test" as TST
+
+activate MLT
+    MLT -> UI : Wishes to register a sample
+activate UI
+    UI -> CTRL : getCreatedTestList()
+activate CTRL
+    CTRL -> CMP : tStore = getTestStore()
+activate CMP
+deactivate CMP
+    CTRL -> TSTORE : tTStore = getNewTests()
+activate TSTORE
+deactivate TSTORE
+deactivate CTRL
+    UI --> MLT : Shows the tests list
+deactivate UI
+
+
+
+
+    MLT -> UI : Selects the Test
+activate UI
+    UI -> CTRL : getTestById()
+activate CTRL
+    CTRL -> TSTORE : test = getTestById()
+activate TSTORE
+deactivate TSTORE
+deactivate CTRL
+    UI --> MLT : Shows the test and askes for the number of samples
+deactivate UI
+
+
+
+
+
+
+
+    MLT -> UI : Inserts the number of samples
+activate UI
+    UI -> CTRL : generateSampleCode(n)
+activate CTRL
+loop number of samples
+    CTRL -> SPL** : generateSampleCode(n)
+deactivate CTRL
+CTRL -> BCAPI : barcode=createBarcode(code)
+activate BCAPI
+deactivate BCAPI
+activate CTRL
+deactivate CTRL
+CTRL -> BCAPI : barcode=printBarcode(code)
+activate CTRL
+activate BCAPI
+deactivate BCAPI
+deactivate CTRL
+end
+
+
+CTRL -> TST : addSamples(listSample)
+activate CTRL
+activate TST
+deactivate TST
+deactivate CTRL
+
+    UI --> MLT : Saves de barcode images
+deactivate UI
+
+
+participant ":ClientStore" as CLST
+
+
+@enduml

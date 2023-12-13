@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="681px" preserveAspectRatio="none" style="width:979px;height:681px;background:#FFFFFF;" version="1.1" viewBox="0 0 979 681" width="979px" zoomAndPan="magnify"><defs><filter height="300%" id="fj7fulnl6gc9l" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="553.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="168" y="73.9609"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="356" y="73.9609"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="356" y="185.0156"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="36.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="356" y="569.0156"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="547" y="245.3672"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="501.4063" style="stroke:#000000;stroke-width:2.0;" width="609" x="3" y="118.9609"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="363" style="stroke:#000000;stroke-width:2.0;" width="506" x="96" y="144.3125"/><rect fill="#FFFFFF" height="59.1875" style="stroke:none;stroke-width:1.0;" width="506" x="96" y="448.125"/><rect fill="#FFFFFF" height="106.0547" style="stroke:none;stroke-width:1.0;" width="609" x="3" y="514.3125"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="173" x2="173" y1="41.6094" y2="637.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="361" x2="361" y1="41.6094" y2="637.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="457" x2="457" y1="41.6094" y2="637.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="552" x2="552" y1="41.6094" y2="637.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="673" x2="673" y1="41.6094" y2="637.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="777" x2="777" y1="41.6094" y2="637.3672"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="889" x2="889" y1="41.6094" y2="637.3672"/><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="106" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="113" y="26.5332">ImportDataService</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="130" x="106" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="116" x="113" y="657.9004">ImportDataService</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="322" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="329" y="26.5332">Company</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="322" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="329" y="657.9004">Company</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="86" x="412" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="419" y="26.5332">TypeofTest</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="86" x="412" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="419" y="657.9004">TypeofTest</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="76" x="512" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="519" y="26.5332">TestStore</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="76" x="512" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="519" y="657.9004">TestStore</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="138" x="602" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="609" y="26.5332">ParameterCategory</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="138" x="602" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="609" y="657.9004">ParameterCategory</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="42" x="754" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="761" y="26.5332">Test</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="42" x="754" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="761" y="657.9004">Test</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="155" x="810" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="817" y="26.5332">TestParameterResults</text><rect fill="#FEFECE" filter="url(#fj7fulnl6gc9l)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="155" x="810" y="636.3672"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="141" x="817" y="657.9004">TestParameterResults</text><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="553.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="168" y="73.9609"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="356" y="73.9609"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="356" y="185.0156"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="36.3516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="356" y="569.0156"/><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="547" y="245.3672"/><polygon fill="#A80036" points="344,69.9609,354,73.9609,344,77.9609,348,73.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="350" y1="73.9609" y2="73.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="185" y="69.1045">validateTypeofTest()</text><path d="M3,118.9609 L64,118.9609 L64,126.9609 L54,136.9609 L3,136.9609 L3,118.9609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="501.4063" style="stroke:#000000;stroke-width:2.0;" width="609" x="3" y="118.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="18" y="133.4561">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="71" x="79" y="132.3799">[if lab exists]</text><path d="M96,144.3125 L157,144.3125 L157,152.3125 L147,162.3125 L96,162.3125 L96,144.3125 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="363" style="stroke:#000000;stroke-width:2.0;" width="506" x="96" y="144.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="16" x="111" y="158.8076">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="124" x="172" y="157.7314">[if Type of Test exists]</text><polygon fill="#A80036" points="344,181.0156,354,185.0156,344,189.0156,348,185.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="350" y1="185.0156" y2="185.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="151" x="185" y="180.1592">tpofTest = getTypeofTest()</text><polygon fill="#A80036" points="535,241.3672,545,245.3672,535,249.3672,539,245.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="541" y1="245.3672" y2="245.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="94" x="185" y="240.5107">test = newTest()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="220" y1="305.7188" y2="305.7188"/><line style="stroke:#A80036;stroke-width:1.0;" x1="220" x2="220" y1="305.7188" y2="318.7188"/><line style="stroke:#A80036;stroke-width:1.0;" x1="179" x2="220" y1="318.7188" y2="318.7188"/><polygon fill="#A80036" points="189,314.7188,179,318.7188,189,322.7188,185,318.7188" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="164" x="185" y="300.8623">LPara = getListParameters()</text><rect fill="#FFFFFF" filter="url(#fj7fulnl6gc9l)" height="42.7031" style="stroke:#000000;stroke-width:2.0;" width="157" x="103" y="326.7188"/><polygon fill="#EEEEEE" points="103,326.7188,165,326.7188,165,334.7188,155,344.7188,103,344.7188,103,326.7188" style="stroke:#000000;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="17" x="116" y="342.2139">ref</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="109" y="362.2139">US12_SD_AddTestResult</text><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="220" y1="396.7734" y2="396.7734"/><line style="stroke:#A80036;stroke-width:1.0;" x1="220" x2="220" y1="396.7734" y2="409.7734"/><line style="stroke:#A80036;stroke-width:1.0;" x1="179" x2="220" y1="409.7734" y2="409.7734"/><polygon fill="#A80036" points="189,405.7734,179,409.7734,189,413.7734,185,409.7734" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="185" y="391.917">setTestIgGan(igGan)</text><polygon fill="#A80036" points="540,436.125,550,440.125,540,444.125,544,440.125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="546" y1="440.125" y2="440.125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="56" x="185" y="435.2686">save(test)</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="96" x2="602" y1="449.125" y2="449.125"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="77" x="101" y="460.5439">[doenst exist]</text><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="220" y1="486.3125" y2="486.3125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="220" x2="220" y1="486.3125" y2="499.3125"/><line style="stroke:#A80036;stroke-width:1.0;" x1="179" x2="220" y1="499.3125" y2="499.3125"/><polygon fill="#A80036" points="189,495.3125,179,499.3125,189,503.3125,185,499.3125" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="49" x="185" y="481.4561">next line</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="3" x2="612" y1="515.3125" y2="515.3125"/><polygon fill="#A80036" points="11,534.6641,1,538.6641,11,542.6641,7,538.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="5" x2="167" y1="538.6641" y2="538.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="17" y="533.8076">asks to create a new lab</text><polygon fill="#A80036" points="344,565.0156,354,569.0156,344,573.0156,348,569.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="178" x2="350" y1="569.0156" y2="569.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="185" y="564.1592">lab = createLab()</text><line style="stroke:#A80036;stroke-width:1.0;" x1="366" x2="408" y1="604.3672" y2="604.3672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="408" x2="408" y1="604.3672" y2="617.3672"/><line style="stroke:#A80036;stroke-width:1.0;" x1="361" x2="408" y1="617.3672" y2="617.3672"/><polygon fill="#A80036" points="371,613.3672,361,617.3672,371,621.3672,367,617.3672" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="373" y="599.5107">saveLab(lab)</text><!--MD5=[ce6c628856c74b9029781f5dc50bef77]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant ImportDataService as service
+participant "Company" as comp
+participant "TypeofTest" as toftest
+participant "TestStore" as store
+participant "ParameterCategory" as category
+participant Test as test
+participant TestParameterResults as testResults
+
+
+
+service -> comp : validateTypeofTest()
+activate comp
+    deactivate comp
+activate service
+alt if lab exists
+alt if Type of Test exists
+    service -> comp: tpofTest = getTypeofTest()
+    activate comp
+    deactivate comp
+    service -> store : test = newTest()
+    activate store
+    deactivate store
+    service -> service : LPara = getListParameters()
+    ref over service
+        US12_SD_AddTestResult
+    end
+    service -> service : setTestIgGan(igGan)
+
+    service -> store : save(test)
+else doenst exist
+    service-> service : next line
+end
+else
+    <- service : asks to create a new lab
+    service -> comp : lab = createLab()
+    activate comp
+    comp -> comp : saveLab(lab)
+    deactivate comp
+end
+deactivate service
+
+
+@enduml
+
+@startuml
+
+participant ImportDataService as service
+participant "Company" as comp
+participant "TypeofTest" as toftest
+participant "TestStore" as store
+participant "ParameterCategory" as category
+participant Test as test
+participant TestParameterResults as testResults
+
+
+
+service -> comp : validateTypeofTest()
+activate comp
+    deactivate comp
+activate service
+alt if lab exists
+alt if Type of Test exists
+    service -> comp: tpofTest = getTypeofTest()
+    activate comp
+    deactivate comp
+    service -> store : test = newTest()
+    activate store
+    deactivate store
+    service -> service : LPara = getListParameters()
+    ref over service
+        US12_SD_AddTestResult
+    end
+    service -> service : setTestIgGan(igGan)
+
+    service -> store : save(test)
+else doenst exist
+    service-> service : next line
+end
+else
+    <- service : asks to create a new lab
+    service -> comp : lab = createLab()
+    activate comp
+    comp -> comp : saveLab(lab)
+    deactivate comp
+end
+deactivate service
+
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

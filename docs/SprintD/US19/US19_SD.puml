@@ -1,0 +1,57 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+participant Company as c
+participant "task: SendAutomaticReport"  as t
+
+
+
+ [o-> c : scheduleOperationSendReport(delay, interval)
+
+activate c
+
+
+
+c --> t** : create(argumentos)
+
+
+
+c --> timer** : create()
+
+c -> timer : schedule(task, firstDate, interval)
+activate timer
+
+deactivate timer
+deactivate c
+
+
+
+
+rnote over c, timer
+After the time specified by "firstDate" has elapsed
+endrnote
+
+timer -> t : run()
+
+activate timer
+activate t
+
+deactivate timer
+deactivate t
+
+rnote over c, timer
+After the time specified by "interval" has elapsed (This operation will repeat N times)
+endrnote
+
+timer -> t : run()
+
+activate timer
+activate t
+
+deactivate timer
+deactivate t
+
+@enduml

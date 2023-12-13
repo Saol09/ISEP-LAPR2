@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="479px" preserveAspectRatio="none" style="width:748px;height:479px;background:#FFFFFF;" version="1.1" viewBox="0 0 748 479" width="748px" zoomAndPan="magnify"><defs><filter height="300%" id="f13zxdy1fpsh8u" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="153.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="301" y="73.9609"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="548" y="292.2344"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="548" y="386.9375"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="677.5" y="197.5313"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="677.5" y="292.2344"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="677.5" y="386.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="306" x2="306" y1="41.6094" y2="434.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="553" x2="553" y1="115.2656" y2="434.9375"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="682" x2="682" y1="161.875" y2="434.9375"/><rect fill="#FEFECE" filter="url(#f13zxdy1fpsh8u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="267" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="274" y="26.5332">Company</text><rect fill="#FEFECE" filter="url(#f13zxdy1fpsh8u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="74" x="267" y="433.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="274" y="455.4707">Company</text><rect fill="#FEFECE" filter="url(#f13zxdy1fpsh8u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="186" x="458" y="433.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="465" y="455.4707">task: SendAutomaticReport</text><rect fill="#FEFECE" filter="url(#f13zxdy1fpsh8u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="45" x="658" y="433.9375"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="665" y="455.4707">timer</text><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="153.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="301" y="73.9609"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="548" y="292.2344"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="548" y="386.9375"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="677.5" y="197.5313"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="677.5" y="292.2344"/><rect fill="#FFFFFF" filter="url(#f13zxdy1fpsh8u)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="677.5" y="386.9375"/><ellipse cx="7.5" cy="73.2109" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="289,69.9609,299,73.9609,289,77.9609,293,73.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="12" x2="295" y1="73.9609" y2="73.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="15" y="69.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="263" x="26" y="69.1045">scheduleOperationSendReport(delay, interval)</text><polygon fill="#A80036" points="446,100.3125,456,104.3125,446,108.3125,450,104.3125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="311" x2="452" y1="104.3125" y2="104.3125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="318" y="99.4561">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="112" x="329" y="99.4561">create(argumentos)</text><rect fill="#FEFECE" filter="url(#f13zxdy1fpsh8u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="186" x="458" y="81.9609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="172" x="465" y="103.4941">task: SendAutomaticReport</text><polygon fill="#A80036" points="646,146.9219,656,150.9219,646,154.9219,650,150.9219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="311" x2="652" y1="150.9219" y2="150.9219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="318" y="146.0654">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="329" y="146.0654">create()</text><rect fill="#FEFECE" filter="url(#f13zxdy1fpsh8u)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="45" x="658" y="128.5703"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="31" x="665" y="150.1035">timer</text><polygon fill="#A80036" points="665.5,193.5313,675.5,197.5313,665.5,201.5313,669.5,197.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="311" x2="671.5" y1="197.5313" y2="197.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="318" y="192.6748">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="329" y="192.6748">schedule(task, firstDate, interval)</text><rect fill="#FBFB77" filter="url(#f13zxdy1fpsh8u)" height="24" style="stroke:#A80036;stroke-width:1.0;" width="435" x="276" y="240.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="287" x="350" y="258.0264">After the time specified by "firstDate" has elapsed</text><polygon fill="#A80036" points="569,288.2344,559,292.2344,569,296.2344,565,292.2344" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="563" x2="676.5" y1="292.2344" y2="292.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="575" y="287.3779">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="586" y="287.3779">run()</text><rect fill="#FBFB77" filter="url(#f13zxdy1fpsh8u)" height="24" style="stroke:#A80036;stroke-width:1.0;" width="491" x="248" y="335.2344"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="483" x="252" y="352.7295">After the time specified by "interval" has elapsed (This operation will repeat N times)</text><polygon fill="#A80036" points="569,382.9375,559,386.9375,569,390.9375,565,386.9375" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="563" x2="676.5" y1="386.9375" y2="386.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="575" y="382.0811">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="26" x="586" y="382.0811">run()</text><!--MD5=[6502f27cf3c019588e381918397525f9]
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+participant Company as c
+participant "task: SendAutomaticReport"  as t
+
+
+
+ [o-> c : scheduleOperationSendReport(delay, interval)
+
+activate c
+
+
+
+c - -> t** : create(argumentos)
+
+
+
+c - -> timer** : create()
+
+c -> timer : schedule(task, firstDate, interval)
+activate timer
+
+deactivate timer
+deactivate c
+
+
+
+
+rnote over c, timer
+After the time specified by "firstDate" has elapsed
+endrnote
+
+timer -> t : run()
+
+activate timer
+activate t
+
+deactivate timer
+deactivate t
+
+rnote over c, timer
+After the time specified by "interval" has elapsed (This operation will repeat N times)
+endrnote
+
+timer -> t : run()
+
+activate timer
+activate t
+
+deactivate timer
+deactivate t
+
+@enduml
+
+@startuml
+
+autonumber
+
+
+participant Company as c
+participant "task: SendAutomaticReport"  as t
+
+
+
+ [o-> c : scheduleOperationSendReport(delay, interval)
+
+activate c
+
+
+
+c - -> t** : create(argumentos)
+
+
+
+c - -> timer** : create()
+
+c -> timer : schedule(task, firstDate, interval)
+activate timer
+
+deactivate timer
+deactivate c
+
+
+
+
+rnote over c, timer
+After the time specified by "firstDate" has elapsed
+endrnote
+
+timer -> t : run()
+
+activate timer
+activate t
+
+deactivate timer
+deactivate t
+
+rnote over c, timer
+After the time specified by "interval" has elapsed (This operation will repeat N times)
+endrnote
+
+timer -> t : run()
+
+activate timer
+activate t
+
+deactivate timer
+deactivate t
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 13:40:07 BST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: Dynamic Code Evolution 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

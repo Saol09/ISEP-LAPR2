@@ -1,0 +1,23 @@
+@startuml
+autonumber
+'hide footbox
+actor "Receptionist" as R
+
+participant ":System" as SYSTEM
+
+R -> SYSTEM : Wishes to register a Client
+activate SYSTEM
+SYSTEM --> R : Requests necessary credentials (cardNumber, nhs, birthDate, sex, TIF, phoneNumber, email, name, password, adsress)
+deactivate SYSTEM
+
+R -> SYSTEM : Inserts the data
+activate SYSTEM
+SYSTEM --> R : Validates the data and asks for confirmation
+deactivate SYSTEM
+
+R -> SYSTEM : Confirms the data
+activate SYSTEM
+SYSTEM --> R : Saves data in DB and informs success of operation
+deactivate SYSTEM
+
+@enduml

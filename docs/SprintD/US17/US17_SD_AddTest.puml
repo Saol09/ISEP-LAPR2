@@ -1,0 +1,47 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+participant ImportDataService as service
+participant "Company" as comp
+participant "TypeofTest" as toftest
+participant "TestStore" as store
+participant "ParameterCategory" as category
+participant Test as test
+participant TestParameterResults as testResults
+
+
+
+service -> comp : validateTypeofTest()
+activate comp
+    deactivate comp
+activate service
+alt if lab exists
+alt if Type of Test exists
+    service -> comp: tpofTest = getTypeofTest()
+    activate comp
+    deactivate comp
+    service -> store : test = newTest()
+    activate store
+    deactivate store
+    service -> service : LPara = getListParameters()
+    ref over service
+        US12_SD_AddTestResult
+    end
+    service -> service : setTestIgGan(igGan)
+
+    service -> store : save(test)
+    service-> service : next line
+else doenst exist
+    service-> service : next line
+end
+else
+    <- service : asks to create a new lab
+    service -> comp : lab = createLab()
+    activate comp
+    comp -> comp : saveLab(lab)
+    deactivate comp
+end
+deactivate service
+
+
+@enduml

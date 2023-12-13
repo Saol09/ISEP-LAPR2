@@ -1,0 +1,37 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+hide methods
+
+
+class Company{
+-String designation
+}
+
+Class Admin{
+}
+
+class TypeOfTest{
+-String code
+-String description
+-String collectingMethods
+-String parameterCat
+}
+
+class Category{
+- string name
+- int code
+}
+
+class Parameter{
+- string description
+}
+
+Company "1" -- "*" Admin : has >
+Admin "1..*" -- "1" TypeOfTest : creates >
+Category "1" -- "*" Parameter : has >
+TypeOfTest "*" -- "*" Category : has >
+Admin "1" -- "*" Parameter : specifies >
+Admin "1" -- "*" Category : create >
+
+@enduml

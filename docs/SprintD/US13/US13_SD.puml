@@ -1,0 +1,49 @@
+@startuml
+autonumber
+'hide footbox
+actor "Clinical Chemistry Technologist" as CCT
+
+participant ": ConsultTestHistoryUI" as UI
+participant ": ConsultTestHistoryController" as CTRL
+participant ": Company " as C
+participant "clientStore : ClientStore" as CS
+
+
+activate CCT
+CCT -> UI : asks to show all registered clients
+activate UI
+UI --> CCT : what is the order
+deactivate UI
+CCT -> UI : select the order
+activate UI
+UI -> CTRL : getClientOrder()
+activate CTRL
+CTRL -> C : cStore = getClientStore()
+activate C
+deactivate C
+CTRL -> CS : cList = getClientOrder()
+activate CS
+deactivate CS
+deactivate CTRL
+UI --> CCT : show all registered clients
+deactivate UI
+
+CCT -> UI : select a client
+activate UI
+
+UI -> CTRL : getClientTin()
+activate CTRL
+
+CTRL -> CS : client = getClientTin()
+activate CS
+
+CS --> CTRL : ok
+deactivate CS
+
+CTRL --> UI : ok
+deactivate CTRL
+
+UI --> CCT : show client history
+deactivate UI
+
+@enduml

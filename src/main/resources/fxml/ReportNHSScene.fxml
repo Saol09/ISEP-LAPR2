@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.ui.gui.ReportNHSSceneUI">
+   <children>
+      <Button fx:id="btnGen" layoutX="61.0" onAction="#btnGen" layoutY="188.0" mnemonicParsing="false" text="Gerar Reports" />
+      <Button fx:id="btnBack" layoutX="481.0" onAction="#btnBack" layoutY="339.0" mnemonicParsing="false" text="Back" />
+      <TextField fx:id="txtDataFim" layoutX="280.0" layoutY="117.0" />
+      <TextField  fx:id="txtDataIni" layoutX="280.0" layoutY="56.0" />
+      <Button fx:id="btnLinear" layoutX="82.0" layoutY="130.0" onAction="#btnLinear" mnemonicParsing="false" text="Linear" />
+      <Button fx:id="btnMultiLinear" layoutX="70.0" layoutY="65.0" onAction="#btnMultLinear" mnemonicParsing="false" text="Multilinear" />
+      <Label layoutX="183.0" layoutY="60.0" text="Data inicial" />
+      <Label layoutX="191.0" layoutY="121.0" text="Data final" />
+      <Label fx:id="lblSucess" layoutX="280.0" layoutY="213.0" />
+   </children>
+</AnchorPane>

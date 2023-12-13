@@ -1,0 +1,23 @@
+Coisas a adicionar no próximo sprint:
+
+GLOSSÁRIO
+-->acrónimos
+
+FURPS
+--> user manual(inseriri na usability)
+-->java virtual machine(retirar da performace e colocar como restriçao/implementaçao)
+-->intellij IDE or Netbeans(retirar do design constraints e colocar na implementatio constraints)
+-->unit tests(manter na supportability) mas separar JUnit 4 framework (colocar implementation constraints)
+
+DIAGRAMA DE CASOS DE USO
+
+-->alterar receber notificação para enviar notificação(considerar o ator timer automatico)
+-->retirar a organização como ator
+
+
+MODELO DE DOMINIO
+
+-->alterar organization para company
+-->criar uma classe empregado para ter todos os atributos em comum dos funcionários da empresa
+-->alterar clinicalanalysis para test
+-->retirar as classes bloodanalysis e covid-test

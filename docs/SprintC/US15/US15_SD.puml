@@ -1,0 +1,37 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+actor "Laboratory coordinator" as LC
+participant "ValidationUI" as UI
+participant "ValidationController" as ctrl
+participant "TestStore" as store
+
+
+LC -> UI : asks to validate a test
+activate LC
+activate UI
+ UI -> ctrl : getDiagnosedTest()
+ activate ctrl
+ ctrl -> store : getDiagnosedTest()
+ activate store
+ deactivate store
+ deactivate ctrl
+ UI -> LC : shows tests and asks for the ones he desires to validate
+ deactivate UI
+ loop until the Laboratory coordinator stops
+ LC -> UI : Inserts the test he wants to validate
+ activate UI
+ UI -> ctrl : validate(code)
+ activate ctrl
+ ctrl -> store : setValid(code)
+ activate store
+ deactivate store
+
+ deactivate ctrl
+ end
+ UI -> LC : informs sucess
+ deactivate UI
+
+
+@enduml

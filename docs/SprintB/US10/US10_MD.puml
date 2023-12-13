@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Company {
+designation
+}
+
+class Parameter {
+code
+name
+desc
+}
+class ParameterCategory {
+code
+desc
+nhsld
+}
+class Admin{
+}
+Company "1"--"*" Admin: knows
+Company "1"--"*" Parameter: capable of analysing
+Company "1"--"*" ParameterCategory : adopts
+Parameter "*"--"1" ParameterCategory : presents under
+Admin "*" -- "1" Parameter : creates
+@enduml

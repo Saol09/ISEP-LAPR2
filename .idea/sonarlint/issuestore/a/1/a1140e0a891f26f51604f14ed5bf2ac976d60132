@@ -1,0 +1,12 @@
+
+K
+java:S1066Û"/Merge this if statement with the enclosing one.(ºê°Ïÿÿÿÿÿ
+[	java:S1070"AConstructor has 8 parameters, which is greater than 7 authorized.(Ç¸ÇÙøÿÿÿÿ
+f	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïğ„´
+?
+java:S2140J")Use "java.util.Random.nextInt()" instead.(ÌŒœ
+X
+java:S1854Ñ"<Remove this useless assignment to local variable "javaDate".(Ãº¾·üÿÿÿÿ
+O	java:S106Ò"9Replace this use of System.out or System.err by a logger.(ÉÈŸ…
+I
+java:S1481Ñ"-Remove this unused "javaDate" local variable.(Ãº¾·üÿÿÿÿ

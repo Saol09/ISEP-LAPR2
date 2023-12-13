@@ -1,0 +1,34 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+
+class Company{
+-designation
+
++scheduleOperationSendReport(delay, interval)
+}
+
+class SendAutomaticReport{
++create()
++run()
+}
+
+enum timer {
+-DAYS
+-HOURS
+-MINUTES
+
++create()
++schedule(task, firstDate, interval)
+}
+
+Company ..> SendAutomaticReport
+Company ..> timer
+timer ..> SendAutomaticReport
+
+
+
+
+
+@enduml

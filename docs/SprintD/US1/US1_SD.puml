@@ -1,0 +1,89 @@
+@startuml
+
+autonumber
+actor "Client" as cli
+
+participant ": ShowResultsUI" as ui
+participant ": ShowResultsController" as ctrl
+participant ": Company" as cmp
+participant "testStore : TestStore" as testStore
+participant "tMapper : TestMapper" as mapper
+participant "lTestsDto : List<TestDto>"
+participant "testResultsAndReportDto : TestResultsAndReportDto"
+
+activate cli
+
+cli -> ui : requests to view the results of the tests the client has performed
+
+activate ui
+
+ui -> ctrl : lTestsDto = getTestsByClient(clientTinNum)
+
+activate ctrl
+
+ctrl -> cmp : tStore = getTestStore()
+
+activate cmp
+
+deactivate cmp
+
+loop if the client chooses to consult another test
+
+ctrl -> testStore : lTests = getTestsByClient(clientTinNum)
+
+activate testStore
+
+deactivate testStore
+
+ctrl -> mapper : lTestsDto = toDto(lTests)
+
+activate mapper
+
+deactivate ctrl
+
+deactivate mapper
+
+ui --> cli : show tests performed by the client and asks to choose one to see the results
+
+deactivate ui
+
+cli -> ui : selects a test
+
+activate ui
+
+ui -> ctrl : getTestResultsAndReport(code)
+
+activate ctrl
+
+ctrl -> testStore : test =  getTestResultsAndReport(code)
+
+activate testStore
+
+ctrl -> mapper : testResultsAndReportDto = toResultAndReportDto(test)
+
+deactivate testStore
+
+activate mapper
+
+deactivate ctrl
+
+ui --> cli : shows the results of the test and the diagnosis report and asks if the client wants to consult another test
+
+deactivate mapper
+
+deactivate ui
+
+cli -> ui : inserts if he/she wants to continue
+
+activate ui
+
+end
+
+ui --> cli : informs successful exit
+
+deactivate ui
+
+deactivate cli
+
+
+@enduml

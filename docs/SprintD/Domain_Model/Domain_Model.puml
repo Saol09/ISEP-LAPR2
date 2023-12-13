@@ -1,0 +1,262 @@
+@startuml
+skinparam classAttributeIconSize 0
+hide methods
+left to right direction
+skinparam linetype polyline
+
+
+class Company{
+-String designation
+
+}
+
+ 
+
+class ClinicalAnalysisLab{
+-int id
+-String name
+-String location
+-int phoneNumber
+-int TINnumber
+
+}
+
+ 
+
+class Test{
+-int internalCode
+-int NHScode
+-String method
+-Date validationDate
+-Hour validationHour
+}
+
+ 
+
+class ChemicalLab{
+-String name
+-int phoneNumber
+-int teamNumber
+-int numberPositivResults
+}
+
+ 
+
+class ChemicalAnalysis{
+-Date dateChemical
+-Hour hourChemical
+-Date hourDiagnostic
+}
+
+class Notification{
+-String message
+}
+ 
+
+class Sample{
+-int barcode
+}
+
+ 
+
+class Client{
+-int cardNumber
+-int nhs
+-int birthDate
+-String sex
+-int TIF
+-int  phoneNumber
+-String email
+-String name
+-int password
+}
+
+ 
+
+class LabOrder{
+-String typeOfTest
+-int parToBeMeasured
+}
+
+ 
+
+class Doctor{
+
+}
+
+
+class Recepcionist{
+
+}
+
+class Address{
+
+}
+
+ 
+
+
+class SpecialistDoctor{
+-int doctorIndexNumber
+ 
+}
+
+ 
+
+class Result{
+-int result
+
+
+}
+
+ 
+
+class ExternalModule{
+
+ 
+
+}
+
+ 
+
+class Report{
+
+ 
+
+}
+
+ 
+
+class ClinicalChemistryTec{
+
+}
+
+ 
+
+class MedicalLabTechnician{
+
+}
+
+ 
+
+class TypeOfTest{
+
+ 
+
+}
+
+class Test{
+
+ 
+
+}
+
+ 
+
+class Courier{
+
+}
+
+class Employee{
+-int ID
+-String role
+-String address
+-String name
+-int phoneNumber
+-String email
+-int socCode
+  
+}
+
+class Delivery{
+
+}
+
+
+class LabCoordinator{
+ 
+}
+
+
+class SampleRegistration{
+
+}
+ 
+Client"1" -- "1" Address : has >
+Recepcionist"1" -- "1" Address : has >
+SpecialistDoctor"1" -- "1" Address : has >
+ClinicalAnalysisLab"1" -- "1" Address : has >
+ChemicalLab"1" -- "1" Address : has >
+ClinicalChemistryTec"1" -- "1" Address : has >
+MedicalLabTechnician"1" -- "1" Address : has >
+Courier "1" -- "1" Address : has >
+
+Company "1" -- "1..*" ClinicalAnalysisLab : has >
+Company "1" -- "1" ChemicalLab : has >
+
+Courier "1" -- "1..*" Delivery : makes >
+Delivery "1" -- "1..*" Sample : has >
+
+ClinicalAnalysisLab "1" -- "1..*" Test : makes >
+ClinicalAnalysisLab "1" -- "1..*" MedicalLabTechnician : has >
+ClinicalAnalysisLab "1" -- "1..*" Recepcionist : has >
+ClinicalAnalysisLab "1" -- "1..*" Client : has >
+
+Test "1" -- "1" TypeOfTest : is a >
+ 
+ChemicalLab "1" -- "1..*" ClinicalChemistryTec : has >
+
+SpecialistDoctor --|> Employee 
+ClinicalChemistryTec --|>  Employee 
+MedicalLabTechnician --|>  Employee 
+Courier "*" -- "1" Employee : is a >
+Recepcionist --|> Employee 
+LabCoordinator --|> Employee
+ 
+
+Client "1" -- "1..*" LabOrder : has >
+Client "1" -- "1..*" Result : has access >
+Client "1" -- "1..*" Sample : has >
+Client"1" -- "1" Notification : receives >
+
+Doctor "1" -- "1..*" LabOrder : prescribes >
+
+Recepcionist "1" -- "1..*" Client : registers >
+Recepcionist "1" -- "1..*" TypeOfTest : registers >
+
+SpecialistDoctor "1" -- "1..*" Result : analysis >
+SpecialistDoctor "1" -- "1..*" Report : writes >
+
+ExternalModule "1" -- "1..*" Report : validates >
+
+Report "1..*" -- "1" Client : delivered >
+
+ 
+
+LabCoordinator "1" --"1..*" Report : validates >
+LabCoordinator "1" --"1..*" Test : validates >
+
+ 
+
+ClinicalChemistryTec "1" -- "1..*" Sample : receives >
+ClinicalChemistryTec "1" -- "1..*" ChemicalAnalysis : makes >
+
+
+ 
+
+ChemicalAnalysis "1" -- "1" Result : generates >
+
+ 
+
+MedicalLabTechnician "1" -- "1..*" Sample : collects >
+MedicalLabTechnician "1" -- "1..*" SampleRegistration : makes >
+
+
+SampleRegistration "1" -- "1..*" Sample : has >
+
+
+LabOrder "1..*" -- "1..*" Test : indicates >
+
+ 
+
+@enduml

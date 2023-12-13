@@ -1,0 +1,10 @@
+
+O
+java:S4973"9Use the "equals" method if value comparison was intended.(¥Ž¬™
+V	java:S125"<This block of commented-out lines of code should be removed.(²†‡Ïüÿÿÿÿ
+S
+java:S1854"8Remove this useless assignment to local variable "code".(ðš¡èüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(×†ýÔøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(•úÌÔþÿÿÿÿ
+D
+java:S1481")Remove this unused "code" local variable.(ðš¡èüÿÿÿÿ
